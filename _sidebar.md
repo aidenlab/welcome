@@ -1,29 +1,22 @@
 
 - Getting started
 
-  - [Quick start](quickstart.md)
-  - [Writing more pages](more-pages.md)
-  - [Custom navbar](custom-navbar.md)
-  - [Cover page](cover.md)
+  - [About us/Our Mission](quickstart.md)
+  - [Straw](more-pages.md)
+  - [Machine Learning](custom-navbar.md)
+  - [What is HIC](cover.md)
 
-- Customization
+- Juicebox
 
-  - [Configuration](configuration.md)
-  - [Themes](themes.md)
-  - [List of Plugins](plugins.md)
-  - [Write a Plugin](write-a-plugin.md)
-  - [Markdown configuration](markdown.md)
-  - [Language highlighting](language-highlight.md)
+  - [Installing Juicebox](configuration.md)
+  - [Juicebox Web](themes.md)
+  - [Juicebox Desktop](plugins.md)
 
-- Guide
+- Juicer
 
-  - [Deploy](deploy.md)
-  - [Helpers](helpers.md)
-  - [Vue compatibility](vue.md)
-  - [CDN](cdn.md)
-  - [Offline Mode (PWA)](pwa.md)
-  - [Server-Side Rendering (SSR)](ssr.md)
-  - [Embed Files](embed-files.md)
+  - [How to install Juicer](helpers.md)
+  - [How to intergrate Juicer in scientific programs](vue.md)
 
-- [Awesome docsify](README.md)
-- [Changelog](something.md)
+
+- [About Us](README.md)
+- [Contact](something.md)
