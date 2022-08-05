@@ -1,10 +1,11 @@
 
 - Getting started
 
-  - [About us/Our Mission](quickstart.md)
-  - [Straw](more-pages.md)
-  - [Machine Learning](custom-navbar.md)
-  - [What is HIC](cover.md)
+  - [Slurm and Voltron](SlurmAndVoltronNotes.md)
+  - [Hotspot](HotspotDocs.md)
+  - [AidenLab Algorithmns](DiffFeatureAlgorithmsContext.md)
+  - [Intro to Sequencing Techniques](BasicNotesOnSeqTechniques.md)
+  - [Intro to Terminal](BeginnerTerminalTips.md)
 
 - Juicebox
 
