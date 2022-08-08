@@ -1,20 +1,20 @@
 
 - Juicebox
 
-  * [Introduction and Quick Start](juicebox.wiki/Home)
-  * [Download](juicebox.wiki/Download)
-  * [Juicebox Tutorial](juicebox.wiki/Visualization)
-    * [Getting Oriented](juicebox.wiki/Visualization#getting-oriented)  
-    * [Loading Maps](juicebox.wiki/Loading-Maps-(the-File-menu))
-    * [Annotations](juicebox.wiki/Loading-Annotations-(Annotations-menu))
-    * [Exploring the Data](juicebox.wiki/Exploring-the-Data)
-    * [Bookmarks](juicebox.wiki/Bookmarks)
-    * [Juicebox Assembly Tools](juicebox.wiki/Juicebox-Assembly-Tools)
-    * [Submapping](juicebox.wiki/Submapping) 
+  * [Introduction and Quick Start](Juicebox.wiki/Home)
+  * [Download](Juicebox.wiki/Download)
+  * [Juicebox Tutorial](Juicebox.wiki/Visualization)
+    * [Getting Oriented](Juicebox.wiki/Visualization#getting-oriented)  
+    * [Loading Maps](Juicebox.wiki/Loading-Maps-(the-File-menu))
+    * [Annotations](Juicebox.wiki/Loading-Annotations-(Annotations-menu))
+    * [Exploring the Data](Juicebox.wiki/Exploring-the-Data)
+    * [Bookmarks](Juicebox.wiki/Bookmarks)
+    * [Juicebox Assembly Tools](Juicebox.wiki/Juicebox-Assembly-Tools)
+    * [Submapping](Juicebox.wiki/Submapping) 
   # General
-  * [Compile or Contribute](juicebox.wiki/Compile-or-Contribute)
-  * [Citing Juicebox](juicebox.wiki/Citing-Juicebox)
-  * [FAQ](juicebox.wiki/FAQ)
+  * [Compile or Contribute](Juicebox.wiki/Compile-or-Contribute)
+  * [Citing Juicebox](Juicebox.wiki/Citing-Juicebox)
+  * [FAQ](Juicebox.wiki/FAQ)
 
   - [About Juicebox](Juicer.md)
   - [Understanding Hic Files](HiCFormatV8.md)
