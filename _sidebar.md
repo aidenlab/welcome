@@ -1,6 +1,5 @@
 
 - Juicebox
-
   * [Introduction and Quick Start](Juicebox.wiki/Home)
   * [Download](Juicebox.wiki/Download)
   * [Juicebox Tutorial](Juicebox.wiki/Visualization)
@@ -11,20 +10,16 @@
     * [Bookmarks](Juicebox.wiki/Bookmarks)
     * [Juicebox Assembly Tools](Juicebox.wiki/Juicebox-Assembly-Tools)
     * [Submapping](Juicebox.wiki/Submapping) 
-  # General
   * [Compile or Contribute](Juicebox.wiki/Compile-or-Contribute)
   * [Citing Juicebox](Juicebox.wiki/Citing-Juicebox)
   * [FAQ](Juicebox.wiki/FAQ)
-
-  - [About Juicebox](Juicer.md)
-  - [Understanding Hic Files](HiCFormatV8.md)
-  - [Installing Juicebox](internalREADME.md)
-  - [Juicebox Code of Conduct](CODE_OF_CONDUCT.md)
-  - [Juicebox Contributors](CONTRIBUTING.md)
+  * [About Juicebox](Juicer.md)
+  * [Understanding Hic Files](HiCFormatV8.md)
+  * [Installing Juicebox](internalREADME.md)
+  * [Juicebox Code of Conduct](CODE_OF_CONDUCT.md)
+  * [Juicebox Contributors](CONTRIBUTING.md)
 
 - Juicer
-
-    # Juicer
   * [Introduction](juicer.wiki/Home)
   * [Quick Start](https://github.com/theaidenlab/juicer/wiki/Installation#quick-start)
   * [Installation](juicer.wiki/Installation)
@@ -33,8 +28,6 @@
   * [Juicer in the cloud](juicer.wiki/Running-Juicer-on-Amazon-Web-Services)
   * [Diploid](juicer.wiki/Diploid)
   * [Data file formats](juicer.wiki/Data)
-
-  # Juicer tools
   * [Download](juicer.wiki/Download)
   * [Quick Start](juicer.wiki/Juicer-Tools-Quick-Start)
   * [`.hic` File Creation with Pre](juicer.wiki/Pre)
@@ -50,14 +43,12 @@
     * [Pearsons](juicer.wiki/Pearsons)
     * [Eigenvector](juicer.wiki/Eigenvector)
     * [Compare Lists](juicer.wiki/Compare-Lists)
-
-  # General
   * [FAQs](juicer.wiki/FAQs)
   * [Citing Juicer](juicer.wiki/Citing-Juicer)
 
-  - [Getting started with Juicer](juicer_README.md)
-  - [Juicer Code of Conduct](juicer_CODE_OF_CONDUCT.md)
-  - [Juicer Contributors](juicer_CONTRIBUTING.md)
+  * [Getting started with Juicer](juicer_README.md)
+  * [Juicer Code of Conduct](juicer_CODE_OF_CONDUCT.md)
+  *  [Juicer Contributors](juicer_CONTRIBUTING.md)
 
 - Straw
   * [Straw Home](straw.wiki/Home.md)
@@ -65,11 +56,10 @@
   * [Download](straw.wiki/Download.md)
   * [Python](straw.wiki/Python.md)
   * [R](straw.wiki/R.md)
-
-  - [Getting started with Straw](straw_README.md)
-  - [Straw Contributors](straw_CONTRIBUTING.md)
-  - [Straw Code of Conduct](straw_CODE_OF_CONDUCT.md)
-  - [Using Straw in Python](pybind11_README.md)
+  * [Getting started with Straw](straw_README.md)
+  * [Straw Contributors](straw_CONTRIBUTING.md)
+  * [Straw Code of Conduct](straw_CODE_OF_CONDUCT.md)
+  * [Using Straw in Python](pybind11_README.md)
 
 - [About Us](README.md)
 - [Contact](something.md)
