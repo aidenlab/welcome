@@ -1,0 +1,7 @@
+:root {
+    --base-font-size: 1000px;
+    --theme-color: green;
+    --sidebar-name-color: #B40431;
+    --sidebar-name-margin: 1.5rem -.2rem;
+    --sidebar-nav-link-color--active: #0B1660;
+}
