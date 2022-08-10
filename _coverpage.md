@@ -10,7 +10,7 @@
 
 <!-- TODO: Update to match your project's benefits/features. Git emojis work great here. -->
 
-- :hourglass_flowing_sand: Learn how to use Juicebox, Juicer, Juicertools and straw.
+- 🧃 Learn how to use Juicebox, Juicer, Juicertools and straw.
 - :open_file_folder: Seamlessly copy code to drive your own genome exploration projects
 
 
