@@ -5,7 +5,7 @@ Read about Juicebox Assembly Tools in <a href="https://www.dropbox.com/s/yq5oeuh
 
 # Assembly Menu Options
 
- <img src="images/assembly_menu.png" alt="assembly_menu">
+ <img src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/assembly_menu.png" alt="assembly_menu">
 
 ## Loading and Saving Assemblies
 Prerequisites: Load Maps, Generate .hic and .assembly file from 3D-DNA Pipeline, Juicebox version 1.8.8
@@ -36,13 +36,13 @@ Select one or more scaffolds then point and click mouse cursor near diagonal at 
 
 ## Invert selection
 
- <img src="images/invert.png" alt="invert">
+ <img src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/invert.png" alt="invert">
 
 Select one or more scaffolds. Move cursor to upper right/lower left corner of selection box and click when the prompt cursor appears.
 
 ## Adjusting boundaries of superscaffolds
 
- <img src="images/group_ungroup.png" alt="group_ungroup">
+ <img src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/group_ungroup.png" alt="group_ungroup">
 
 Select in between scaffolds at the diagonal to adjust the boundary of a superscaffold.
 
@@ -51,7 +51,7 @@ Select a single scaffold and move the mouse cursor close to the diagonal. A curs
 
 ## Right Click Menu
 
-<img src="images/assembly_right_click_menu.png" alt="assembly_right_click_menu">
+<img src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/assembly_right_click_menu.png" alt="assembly_right_click_menu">
 
 Changes can be reversed or redone by selecting undo or redo or using the keyboard shortcut:
 undo 'cmd+u' or 'ctrl+u' 
