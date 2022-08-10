@@ -3,7 +3,6 @@
   Aidenlab Documentation Website  <!-- TODO: Update title -->
 </h1>
 
-[![GitHub tags](https://img.shields.io/github/tag/MichaelCurrin/docsify-js-template.svg)](https://GitHub.com/MichaelCurrin/docsify-js-template/tags/) <!-- TODO: Update username and repo name -->
 
 
 >  One stop shop for all Aidenlab documentation <!-- TODO: Replace with your description -->
