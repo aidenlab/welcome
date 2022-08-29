@@ -4,6 +4,7 @@
   * [Download](straw.wiki/Download.md)
   * [Python](straw.wiki/Python.md)
   * [R](straw.wiki/R.md)
+  * [Java](straw.wiki/Java.md)
   * [Getting started with Straw](straw.wiki/straw_README.md)
 
 - Juicebox
