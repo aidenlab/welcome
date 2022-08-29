@@ -40,8 +40,7 @@
 
 
 - [3DDNA](https://www.dnazoo.org/methods)
-- [Juicebox Assembly Tools](README.md)
+- [Juicebox Assembly Tools](https://github.com/aidenlab/Juicebox/wiki/Download)
 
-- [About Us](README.md)
 - [FAQ](FAQ.md)
 - [How to Cite](Citing.md)
