@@ -1,5 +1,3 @@
-### Feel free to suggest questions to add to this list by emailing us at `aidenlab at bcm dot edu`.<br>Also check out the [public forum](https://groups.google.com/g/3d-genomics/).
-
 ## Version issues (1.x vs 2.x)
 
 Juicer and Juicer Tools are under active development, and we have not made official releases for version 2 yet. In general, while we try to maintain backward compatibility, it is not always possible. Some general guidelines:
@@ -45,3 +43,5 @@ Use [Pre](https://github.com/theaidenlab/juicer/wiki/Pre) with the nine column "
 
 ## My question wasn't answered here
 Please search the [3D genomics forum](http://aidenlab.org/forum.html) and ask your question there
+
+
