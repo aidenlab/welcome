@@ -20,7 +20,6 @@
 
 - Juicer
   * [Introduction](juicer.wiki/Home)
-  * [Quick Start](https://github.com/theaidenlab/juicer/wiki/Installation#quick-start)
   * [Installation](juicer.wiki/Installation)
   * [Usage](juicer.wiki/Usage)
   * [Juicer on a cluster](juicer.wiki/Running-Juicer-on-a-cluster)
