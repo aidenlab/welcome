@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/pre_highlight.png" width="100%" alt="Pre" />
+<img src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicer.images/pre_highlight.png" width="100%" alt="Pre" />
 
 The Juicer Tools and Juicebox software is centered around the [*.hic* file](Data), a highly compressed binary file that provides rapid random access to the matrices. [*.hic* files](Data) can be visualized in the [Juicebox GUI](https://github.com/aidenlab/juicebox/wiki) and data can be easily extracted from them using the [*dump* command](Data-Extraction); our sophisticated [feature annotation algorithms](Feature-Annotation) also operate on .hic files.  
 

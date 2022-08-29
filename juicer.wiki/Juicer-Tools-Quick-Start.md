@@ -1,4 +1,4 @@
-<img src="https://github.com/theaidenlab/juicer/wiki/images/graphic_juicer_tools.png" width="100%" alt="Juicer Tools"/>
+<img src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicer.images/graphic_juicer_tools.png" width="100%" alt="Juicer Tools"/>
 
 This Quick Start guide shows you how to create your own .hic file using [Pre](Pre) and extract the data using [Dump](https://github.com/theaidenlab/juicer/wiki/Data-Extraction).
 

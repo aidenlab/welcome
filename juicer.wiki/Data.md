@@ -1,4 +1,4 @@
-<img src="https://github.com/theaidenlab/juicer/wiki/images/graphic_data.png" width="100%" alt="Data">
+<img src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicer.images/graphic_data.png" width="100%" alt="Data">
 The data file formats used in the Juicer / Juicebox / Straw ecosystem are described below.
 
 The Juicer data archive is available at [aidenlab.org/data.html](http://www.aidenlab.org/data.html) and consists of `.hic` files, described below.

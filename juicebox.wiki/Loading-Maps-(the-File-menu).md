@@ -1,8 +1,8 @@
 # Open #
 From the *File* menu, clicking *Open* or *Open Control* will bring up a list of all of the Hi-C maps from our publications, including <a href="http://www.cell.com/cell/abstract/S0092-8674(14)01497-4">our Cell paper</a>, as well as extant datasets from other labs (the Hi-C Data Archive).
 
-<img  class="centered" src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/guide/open_file.png" title="Open file menu" /><br>
-<img src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/guide/filemenu.png" class="centered"  title="File menu" />
+<img  class="centered" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/guide/open_file.png" title="Open file menu" /><br>
+<img src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/guide/filemenu.png" class="centered"  title="File menu" />
 																Click on the folders to find maps within that cell type.  Double-clicking on the name of a map will load it.  Alternatively, you can either click the button *Open MAPQ &gt; 0*, or select the arrow next to the button and you'll see the option to *Open MAPQ &gt; 30*.
 
 You can select multiple maps to load by holding down the Ctrl key or Apple key, or by holding down the Shift key and selecting a series.  The maps will be summed together when loaded.
@@ -14,7 +14,7 @@ Load a control map after opening a map if you wish to see one map divided by ano
 # Filtering by name #
 
 When choosing to load a HiC file under the Open File menu, you will notice a text box in the bottom right corner of the Open window. This is a case-sensitive search filter that allows you to search for HIC files by name or number. If a file contains the string that you search, a file path will be opened and the matching text will be highlighted in red. You are also able to search for multiple files by separating your searches with commas. If there is a match for the other files that you search for, the text will be highlighted in other colors.
-<img width="100%" class="centered" src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/guide/multisearch.png" alt="pic of search/multi search"/>
+<img width="100%" class="centered" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/guide/multisearch.png" alt="pic of search/multi search"/>
 
 # Recent maps #
 
@@ -23,11 +23,11 @@ The *Open Recent* menu will be populated with the maps you've opened most recent
 # Dataset metrics #
 Once you've loaded a map, *Show Dataset Metrics* displays statistics about the map.  The *About Library* tab contains information about how the experiment was conducted.  The *Statistics* tab contains quality control statistics you can use to judge the quality of the library (see the Supplemental Materials of <a href="http://www.cell.com/cell/abstract/S0092-8674(14)01497-4">our Cell paper</a> for more).
 
-<img src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/guide/about.png" width="49%" title="About tab" /> <img src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/guide/stats.png" width="49%" title="Statistics tab" />  The next tabs are different graphs with other ways to visualize the statistics.  The *Pair Type* graph has each pair type versus how far apart they are.  The *Restriction* tab contains the distance from the closest restriction enzyme site.  The *Intra vs Distance* is a cumulative sum of the reads versus the distance between them.  The *MapQ* tab is a histogram of the reads at different MapQ thresholds. 
+<img src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/guide/about.png" width="49%" title="About tab" /> <img src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/guide/stats.png" width="49%" title="Statistics tab" />  The next tabs are different graphs with other ways to visualize the statistics.  The *Pair Type* graph has each pair type versus how far apart they are.  The *Restriction* tab contains the distance from the closest restriction enzyme site.  The *Intra vs Distance* is a cumulative sum of the reads versus the distance between them.  The *MapQ* tab is a histogram of the reads at different MapQ thresholds. 
 
-<img src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/guide/graph1.png" width="45%" title="Pair type tab" />																<img src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/guide/restriction.png" width="45%"  title="Restriction tab" /> 
-<img src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/guide/intra.png" width="45%"  title="Intra vs Distance tab" /> 
-<img src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/guide/mapq.png" width="45%"  title="MapQ tab" />
+<img src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/guide/graph1.png" width="45%" title="Pair type tab" />																<img src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/guide/restriction.png" width="45%"  title="Restriction tab" /> 
+<img src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/guide/intra.png" width="45%"  title="Intra vs Distance tab" /> 
+<img src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/guide/mapq.png" width="45%"  title="MapQ tab" />
 
 # Export data #
 

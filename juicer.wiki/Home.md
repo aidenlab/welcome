@@ -1,5 +1,5 @@
 # Juicer #
-<img src="https://github.com/theaidenlab/juicer/wiki/images/graphic_juicer.png" width="100%" alt="Overview"/>
+<img src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicer.images/graphic_juicer.png" width="100%" alt="Overview"/>
 
 # What is Juicer? #
 Juicer is a one-click pipeline for processing terabase scale Hi-C datasets. Using Juicer, you can

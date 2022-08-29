@@ -4,9 +4,9 @@ You'll first need to create an account with <a href="https://aws.amazon.com/">Am
 
 Log in to your acount by clicking on the <strong>Sign in to the AWS Console</strong> button.<br>
 Click on <strong>EC2 - Virtual Servers in the Cloud</strong>.<br><br>
-<center><img width="70%" src="https://raw.githubusercontent.com/wiki/aidenlab/juicer/images/ec2.jpeg"/></center><br><br>
+<center><img width="70%" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicer.images/ec2.jpeg"/></center><br><br>
 Click the <strong>Launch Instance</strong> button.
-<center><img width="70%" src="https://raw.githubusercontent.com/wiki/aidenlab/juicer/images/instance.jpeg"/></center><br><br>
+<center><img width="70%" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicer.images/instance.jpeg"/></center><br><br>
 Click the <strong>Community AMIs</strong> link and search for the AMI corresponding to your AWS region:<br>
 
 * <strong>ami-458fc22f</strong> (us-east-1)
@@ -14,28 +14,28 @@ Click the <strong>Community AMIs</strong> link and search for the AMI correspond
 * <strong>ami-0cf958a247826ffa0</strong> (us-east-2)
 
 Then press the <strong>Select</strong> button.<br>If you cannot find the AMI, you can change your AWS region via the navbar.<br><br>
-<center><img width="70%" src="https://raw.githubusercontent.com/wiki/aidenlab/juicer/images/comm_ami.jpeg"/></center><br><br>
+<center><img width="70%" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicer.images/comm_ami.jpeg"/></center><br><br>
 You'll now need to choose an instance type. We recommend an instance with at least 8 vCPUs. Processing times will depend on the number of vCPUs and amount of memory. At minimum, we suggest the <strong>m3.2xlarge</strong>, though any instance with 8+ vCPUs will be fine. A GPU node (e.g. <strong>g2.8xlarge</strong>) is required for loop calling (HiCCUPS). To save costs, we suggest running the majority of juicer, including the building of a .hic file and Arrowhead, using a CPU instance (e.g. <strong>c3.8xlarge</strong>) and running just HiCCUPS loop calling on a GPU instance.<br><br>
 <code>Disclaimer: Running EC2 has a cost by the hour - as long as the instance is running, you will be charged. Please make sure you understand <a href="http://aws.amazon.com/ec2/pricing/">Amazon's pricing policies</a> before you start working with AWS.</code><br><br>
 Click <strong>Next: Configure Instance Details</strong> to continue.<br><br>
-<center><img width="70%" src="https://raw.githubusercontent.com/wiki/aidenlab/juicer/images/instance_type.jpeg"/></center><br><br>
+<center><img width="70%" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicer.images/instance_type.jpeg"/></center><br><br>
 You now have the option to configure the instance. The defaults here are fine. Continue by clicking <strong>Next: Add Storage</strong>.<br><br>
-<center><img width="70%" src="https://raw.githubusercontent.com/wiki/aidenlab/juicer/images/config_instance.jpeg"/></center><br><br>
+<center><img width="70%" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicer.images/config_instance.jpeg"/></center><br><br>
 Unless you have a specific library size in mind, you should keep defaults for storage options. As a general guide, 1B PE reads will require about 5TB of storage.  Continue by clicking <strong>Next: Tag Instance</strong>.<br><br>
-<center><img width="70%" src="https://raw.githubusercontent.com/wiki/aidenlab/juicer/images/storage.jpeg"/></center><br><br>
+<center><img width="70%" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicer.images/storage.jpeg"/></center><br><br>
 Name your instance (e.g. "Juicer_AWS").  Continue by clicking <strong>Next: Configure Security Group</strong>.<br><br>
-<center><img width="70%" src="https://raw.githubusercontent.com/wiki/aidenlab/juicer/images/tag.jpeg"/></center><br><br>
+<center><img width="70%" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicer.images/tag.jpeg"/></center><br><br>
 The default security rules are fine for now (although you can/should edit them later).  Continue by clicking <strong>Review and Launch</strong>.<br><br>
-<center><img width="70%" src="https://raw.githubusercontent.com/wiki/aidenlab/juicer/images/security.jpeg"/></center><br><br>
+<center><img width="70%" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicer.images/security.jpeg"/></center><br><br>
 Review the settings, then click <strong>Launch</strong>.<br><br>
-<center><img width="70%" src="https://raw.githubusercontent.com/wiki/aidenlab/juicer/images/launch.jpeg"/></center><br><br>
+<center><img width="70%" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicer.images/launch.jpeg"/></center><br><br>
 Now you'll need to create a new key (e.g. "juicer_aws"). Download the key pair, and it should save the file to your <strong>Downloads</strong> folder. If the file is saved as a <em>.pem.txt</em> file, you can remove the <em>.txt</em> extension to make it a <em>.pem</em> file.<br><br>
 <code>This file will act as a password of sorts, and should be saved in a secure location on your computer.</code><br><br>
-<center><img width="70%" src="https://raw.githubusercontent.com/wiki/aidenlab/juicer/images/key.jpeg"/></center><br><br>
+<center><img width="70%" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicer.images/key.jpeg"/></center><br><br>
 You should now click <strong>Launch Instances</strong> and see something like this:<br><br>
-<center><img width="70%" src="https://raw.githubusercontent.com/wiki/aidenlab/juicer/images/launched.jpeg"/></center><br><br>
+<center><img width="70%" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicer.images/launched.jpeg"/></center><br><br>
 Click <strong>View Instances</strong> to see details regarding your new instance.<br><br>
-<center><img width="70%" src="https://raw.githubusercontent.com/wiki/aidenlab/juicer/images/new_instance.jpeg"/></center>
+<center><img width="70%" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicer.images/new_instance.jpeg"/></center>
 
 # Connecting to the Instance #
 AWS has <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html">detailed instructions</a> for how to connect to your instance. We will briefly summarize them below.<br>

@@ -4,7 +4,7 @@
 
 In order to show different location on the map, use the chromosome selector on the top right size of the menu bar.
 
-<img width=218 height=176 class="centered" src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/navigation/image030.png" alt=""/>
+<img width=218 height=176 class="centered" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/navigation/image030.png" alt=""/>
 
 Select both chromosomes for x and y axis, and click on the purple refresh arrows to load.
 
@@ -46,23 +46,23 @@ After opening a Hi-C map, load a second Hi-C map as a control to compare feature
 
 Using the `Show` combo box, select `VS` to view the maps side-by-side (GM12878 vs IMR90 - ADAMTS1 gene) with the observed map below the diagonal and the control map above the diagonal:
 
-<img width="100%" class=centered src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/compare/vs.png" alt=""/>
+<img width="100%" class=centered src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/compare/vs.png" alt=""/>
 
 You can also view Observed/Expected for both maps side-by-side using `Observed/Expected (Observed vs Control)`
 
-<img width="100%" class=centered src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/compare/oevs.png" alt=""/>
+<img width="100%" class=centered src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/compare/oevs.png" alt=""/>
 
 Select `Observed/Control` to show relative enrichment between the maps.
 
-<img width="100%" class=centered src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/compare/oc.png" alt=""/>
+<img width="100%" class=centered src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/compare/oc.png" alt=""/>
 
 You can also view `Observed - Control`.
 
-<img width="100%" class=centered src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/compare/diff.png" alt=""/>
+<img width="100%" class=centered src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/compare/diff.png" alt=""/>
 
 It is also possible to view `Pearson (Observed vs Control)` side-by-side for both maps, but only at available resolutions (here with GM12878 Paternal vs Maternal)
 
-<img width="100%" class=centered src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/compare/pearsonvs.png" alt=""/>
+<img width="100%" class=centered src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/compare/pearsonvs.png" alt=""/>
 
 # Multiple Maps #
 
@@ -80,16 +80,16 @@ If you are only interested in a single synchronization between the two maps, rig
 ## Straight edge ##
 Use the straight edge to highlight current mouse positions on the map and annotations. Right click on the main map, and select `Straight Edge` to toggle the feature on and off.
 
-<img width=227 height=270 class="centered" src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/navigation/image034.png" alt=""/>
+<img width=227 height=270 class="centered" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/navigation/image034.png" alt=""/>
 
 ## Freeze hover text, copy ##
 While the mouse hovers over the heat map, information about the position and map features appears in the information pane on the right side. In order to freeze that pane and copy the information, right click and toggle the `Freeze Hover Text` option.		
 
-<img width=266 height=165 class="centered" src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/navigation/image036.png" alt=""/>
+<img width=266 height=165 class="centered" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/navigation/image036.png" alt=""/>
 
 Use the mouse to select the text in the information pane, and copy the data to the clipboard.
 
-<img width=218 height=205 class="centered" src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/navigation/image038.png" alt=""/>
+<img width=218 height=205 class="centered" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/navigation/image038.png" alt=""/>
 
 # Change Data Views #
 
@@ -107,26 +107,26 @@ The `Pearson` view shows patterns of correlation between loci.
 
 Use the left and right handles of the color slider to set the minimum and maximum values for the map color range respectively. Use the <code>+</code>/<code>-</code> buttons to increase or decrease the overall slider range.
 
-<img width=218 height=76 class="centered" src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/navigation/image040.png" alt=""/>
+<img width=218 height=76 class="centered" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/navigation/image040.png" alt=""/>
 
 You can also click the `Color Range` label to set the minimum and maximum values using a dialog box.
 
-<img width=146 height=144 class="centered" src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/navigation/image042.png" alt="">
+<img width=146 height=144 class="centered" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/navigation/image042.png" alt="">
 
 Setting the values will adjust the color saturation of the heat map with in-between color values linearly interpolated. As an example, this would recalibrate the color range values:
 
 before:	
 
-<img width="40%" class=centered src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/navigation/image044.png" alt=""/>
+<img width="40%" class=centered src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/navigation/image044.png" alt=""/>
 
 after
 
-<img width="40%" class=centered src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/navigation/image046.png" alt=""/>
+<img width="40%" class=centered src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/navigation/image046.png" alt=""/>
 
 ## Normalizations ##
 
 The normalization tool gives you the option to choose between different normalization algorithms used to remove biases from the Hi-C matrix. Depending on the map viewed, different normalization options are presented. We recommend using <i>Balanced</i> - the Knight-Ruiz balancing algorithm.
 
-<center><img width=182 height=149 src="https://raw.githubusercontent.com/wiki/aidenlab/Juicebox/images/navigation/image048.png" alt=""></center>
+<center><img width=182 height=149 src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/navigation/image048.png" alt=""></center>
 
 For more information about KR normalization, read the supplemental materials of the <a href="http://www.cell.com/cell/abstract/S0092-8674(14)01497-4">2014 Cell paper</a>.
