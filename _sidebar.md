@@ -15,6 +15,8 @@
     * [Annotations](juicebox.wiki/Loading-Annotations-(Annotations-menu))
     * [Exploring the Data](juicebox.wiki/Exploring-the-Data)
     * [Bookmarks](juicebox.wiki/Bookmarks)
+    * [Juicebox Web Video Guides](juicebox.wiki/JBWeb_videos)
+
     * [Assembly Tools](juicebox.wiki/Juicebox-Assembly-Tools)
 
 - Juicer
