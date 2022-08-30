@@ -1,53 +1,56 @@
 
 ## Java Straw Guide
 
-first install the package `javastraw`
+You'll first need to download the Java Straw jar and add it as a library dependency.
 
+Let's create hic dataset object. If you want to cache portions of the file, set the corresponding boolean to True. This uses more RAM, but if you want to repeatedly query nearby regions it can improve the speed of the requests. 
 
-If you want to cache portions of the file, set to True. This uses more ram, but if you want to repeatedly query nearby regions it can improve speed. 
-
-First we import `numpy` and `hicstraw`.
 ```java
 boolean useCache = false;
 String filename = "file.hic";
-```
-
-Create hic dataset object.
-```java
 Dataset ds = HiCFileTools extractDatasetForCLT(filename, false, useCache, false);
 ```
 
-Pick desired normalization. This line will check multiple possible norms and pick based on availability.
+Set the desired normalization. 
+
+```java
+NormalizationType norm = NormalizationHandler.VC;
+System.out.println("Norm being used: " + norm.getLabel());
+```
+
+
+If you want to check for multiple possible normalizations and pick it based on its availability, use:
 
 ```java
 NormalizationType norm = NormalizationPicker.getFirstValidNormInThisOrder(ds, new String[]{"KR", "SCALE", "VC", "VC_SQRT", "NONE"});
 System.out.println("Norm being used: " + norm.getLabel());
 ```
 
-Set resolution
-
-```java
-int resolution = 5000;
-```
-
-Grabbing chromosomes.
+Let's now retrieve the chromosomes in an array.
 ```java
 Chromosome[] chromosomes = ds.getChromosomeHandler().getChromosomeArrayWithoutAllByAll();
 ```
-Iterating through chromosomes (intra chromosomal for now):
+
+Let's then specify a resolution and iterate through the chromosomes (intra chromosomal for now):
 ```java
-for (Chromosome chromosome : chromosomes) {
+
+    int resolution = 5000;
+
+    for (Chromosome chromosome : chromosomes) {
         Matrix matrix = ds.getMatrix(chromosome, chromosome);
         if (matrix == null) continue;
         MatrixZoomData zd = matrix.getZoomData(new HiCZoom(resolution));
         if (zd == null) continue;
-```
-Zd is now a data structure that contains pointers to the data. Let's show 2 different ways to access data.
 
-Option 1:
- iterate on all the data for the whole chromosome in sparse format.
+        // your code here
+    }
+```
+`zd` is now a MatrixZoomData object that contains pointers to the data. Let's show 2 different ways to access data.
+
+Option 1: iterate on all the data for the whole chromosome in sparse format (upper triangular matrix only).
  ```java
- Iterator<ContactRecord> iterator = zd.getNormalizedIterator(norm);
+
+            Iterator<ContactRecord> iterator = zd.getNormalizedIterator(norm);
             while (iterator.hasNext()) {
                 ContactRecord record = iterator.next();
                 // now do whatever you want with the contact record
@@ -76,10 +79,10 @@ Option 1:
                 }
             }
 ```
-Option 2:
+
+Option 2: extract data for a given region within specified boundaries
+
 ```java
-           // OPTION 2
-            // just grab sparse data for a specific region
 
             // choose your setting for when the diagonal is in the region
             boolean getDataUnderTheDiagonal = true;
@@ -105,8 +108,8 @@ Option 2:
                     }
                 }
             }
-        }
-```
+        
+
 
         // to iterate over the whole genome
         for (int i = 0; i < chromosomes.length; i++) {
@@ -123,8 +126,5 @@ Option 2:
                 }
             }
         }
-    }
-
-For Full guide:
-
-https://github.com/sa501428/java-straw/blob/master/src/javastraw/AnnotatedExample.java
+    
+    ```
