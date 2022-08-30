@@ -3,22 +3,7 @@
 </p>
 
 ---
-Straw is our API for **fast** data extraction for .hic files that provides **programmatic access** to the matrices. It is currently written in [C++](CPP) and [Python](Python), with support for [R](R). 
+Straw is library which allows rapid streaming of contact data from .hic files. We provide native implementations of straw for [C++](CPP), [Java](Java), and JavaScript, as well as [Python](Python) and [R](R) wrappers for the C++ code.
 
-You can [download binaries](Download) compiled for different systems.
+A Jupyter notebook example of using straw can be found here: https://aidenlab.gitbook.io/juicebox/accessing-raw-data
 
-Straw works by reading the .hic file, finding the appropriate matrix and slice
-of data, and printing the text in sparse upper triangular format.  It is not as fully featured as the Java [Juicebox command line tools](https://github.com/theaidenlab/juicebox/wiki/Data-Extraction);
-in particular, it doesn't store the pointer data for all the matrices, only
-the one queried, and currently we are only supporting matrices (not vectors).
-
-Future versions may look more like the Java implementation. 
-
-Special thanks to [Yue Wu](https://github.com/mikeaalv) for the initial Python port.
-
-For questions, please use
-[the Google Group](https://groups.google.com/forum/#!forum/3d-genomics).
-
-If you use this tool in your work, please cite 
-
-**Neva C. Durand, James T. Robinson, Muhammad S. Shamim, Ido Machol, Jill P. Mesirov, Eric S. Lander, and Erez Lieberman Aiden. "Juicebox provides a visualization system for Hi-C contact maps with unlimited zoom." Cell Systems 3(1), 2016.**

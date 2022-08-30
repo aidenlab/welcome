@@ -39,17 +39,6 @@ Juicebox supports the <a href="https://bedtools.readthedocs.io/en/latest/content
 #chr1  x1	 x2	    chr2   y1	      y2	  name	score  strand1  strand2	color [optional fields]
 chr5   85000000  89000000   chr5   85000000   89000000    .     .      .        .       255,0,0
 ``` 
-For backwards compatibility, we still support the below format as well, but encourage everyone to use bedpe instead.
-
-```
-chr1   x1         x2         chr2   y1         y2         color     comment
-chrX   85000000   89000000   chrX   85000000   89000000   0,255,0   My green region
-chrX   90000000   99100000   chrX   90000000   99100000   0,0,255   My blue region
-```
-
-Save the example as a text file. Load it into Juicebox by going to *Annoations>Load Basic Annotations...>Add 2D...*. You should see the following result:
-
-<img width=400 height=315 class="centered" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/navigation/image018.png" alt=""/>
 
 Note:
 

@@ -1,11 +1,10 @@
 - Straw
-  * [Straw Home](straw.wiki/Home.md)
+  * [Getting started](straw.wiki/Home.md)
   * [C++](straw.wiki/CPP.md)
-  * [Download](straw.wiki/Download.md)
   * [Python](straw.wiki/Python.md)
-  * [R](straw.wiki/R.md)
   * [Java](straw.wiki/Java.md)
-  * [Getting started with Straw](straw.wiki/straw_README.md)
+  * [R](straw.wiki/R.md)
+  * [`hic` file format](straw.wiki/Data)
 
 - Juicebox
   * [Introduction](juicebox.wiki/Juicebox_intro)
@@ -25,10 +24,11 @@
   * [Usage](juicer.wiki/Usage)
   * [Juicer on a cluster](juicer.wiki/Running-Juicer-on-a-cluster)
   * [Juicer in the cloud](juicer.wiki/Running-Juicer-on-Amazon-Web-Services)
-  * [Data file formats](juicer.wiki/Data)
   * [Download](juicer.wiki/Download)
   * [Quick Start](juicer.wiki/Juicer-Tools-Quick-Start)
-  * [`.hic` File Creation with Pre](hictools.wiki/Pre)
+
+- Juicer Tools
+  * [Pre](hictools.wiki/Pre)
     * [AddNorm](hictools.wiki/AddNorm) 
   * [Feature Annotation and Analysis](juicer.wiki/Feature-Annotation)
     * [Arrowhead](juicer.tools.wiki/Arrowhead)
@@ -39,9 +39,6 @@
     * [APA](juicer.tools.wiki/APA)
     * [Compare Lists](juicer.tools.wiki/Compare-Lists)
 
-
-- [3DDNA](https://www.dnazoo.org/methods)
-- [Juicebox Assembly Tools](https://github.com/aidenlab/Juicebox/wiki/Download)
-
+- [3D-DNA and JBAT](https://www.dnazoo.org/methods)
 - [FAQ](FAQ.md)
 - [How to Cite](Citing.md)

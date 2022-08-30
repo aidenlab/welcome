@@ -1,4 +1,5 @@
-# Welcome to the Aidenlab #
+# Welcome to the Aiden lab software page! #
+
 
 Juicebox is visualization software for Hi-C experiments. Using Juicebox, you can
 * visualize Hi-C maps by zooming in and out over many magnitudes of resolution in real time
@@ -8,3 +9,7 @@ Juicebox is visualization software for Hi-C experiments. Using Juicebox, you can
 * ...and more!
 
 In addition, Straw and Juicer are also powerful tools to parse through hic genomic data. Look around to learn more!
+
+
+For questions, please use
+[the Google Group](https://groups.google.com/forum/#!forum/3d-genomics).
