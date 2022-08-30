@@ -3,6 +3,14 @@
 
 Read about Juicebox Assembly Tools in <a href="https://www.dropbox.com/s/yq5oeuh0c9dlzhw/manual_180322.pdf?dl=0">Genome Assembly Cookbook</a>.
 
+# Video Guide
+
+[Olga Dudchenko Talk](https://www.youtube.com/embed/UL1tPzJRDCE ':include :type=iframe width=100% height=400px')
+
+[JBAT Tetris](https://www.youtube.com/embed/IMmVp8FodmY ':include :type=iframe width=100% height=400px')
+
+[Olga Tutorial](https://www.youtube.com/embed/Nj7RhQZHM18 ':include :type=iframe width=100% height=400px')
+
 # Assembly Menu Options
 
  <img src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/assembly_menu.png" alt="assembly_menu">
