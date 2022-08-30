@@ -8,15 +8,14 @@
 
 - Juicebox
   * [Introduction](juicebox.wiki/Juicebox_intro)
-  * [Quick Start](juicebox.wiki/Juicebox_quickstart)
   * [Download](juicebox.wiki/Download)
-  * [Juicebox Tutorial](juicebox.wiki/Visualization)
+  * [Tutorial](juicebox.wiki/Visualization)
     * [Getting Oriented](juicebox.wiki/Visualization#getting-oriented)  
     * [Loading Maps](juicebox.wiki/Loading-Maps-(the-File-menu))
     * [Annotations](juicebox.wiki/Loading-Annotations-(Annotations-menu))
     * [Exploring the Data](juicebox.wiki/Exploring-the-Data)
     * [Bookmarks](juicebox.wiki/Bookmarks)
-    * [Juicebox Assembly Tools](juicebox.wiki/Juicebox-Assembly-Tools)
+    * [Assembly Tools](juicebox.wiki/Juicebox-Assembly-Tools)
 
 - Juicer
   * [Introduction](juicer.wiki/Home)
