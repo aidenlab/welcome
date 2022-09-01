@@ -1,5 +1,5 @@
 - [Getting started](README.md)
-- [`hic` file](straw.wiki/Data)
+- [Important Data Files](straw.wiki/Data)
 - Visualizing Hi-C Data
   * [Introduction to Juicebox](juicebox.wiki/Juicebox_intro)
   * [Download](juicebox.wiki/Download)
