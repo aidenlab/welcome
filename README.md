@@ -1,20 +1,38 @@
+## Enter the microscopic world inside your nucleus.
 
-# Welcome to the Aiden lab software page! #
+Every single cell in your body has the exact same DNA Sequence, yet we observe vast differences in both structure and function within cells in our body. The differences between our transparent corneal cells and our highly conductive neurons exists not because of the content of our DNA, but rather how it is regulated.
 
-This website includes walkthroughs and documentation for various software tools to visualize, explore, and analyze Hi-C data.
+ >This regulation is largely determined by the 3D structure and organization of our *chromatin*, which is the uncoiled form of DNA present most of the cell's life cycle. 
 
-# What is Hi-C? #
+Therefore to understand the variations that exist between all life on earth, between the sick and healthy, and within ourselves, let us enter the microscopic world inside the nucleus and investigate the 3D organization of chromatin.
 
-If the DNA from a single cell was taken out and stretched end to end, it would span 2 meters. But all that DNA has to fold up tightly inside a single nucleus only a few microns wide. Studying the patterns and rules of DNA folding, and the implications this folding has for disease or epigenetics is the field of 3D genomics.
+## What is Hi-C? 
 
-Hi-C data represent one major approach for studying 3D interactions within the cell, using a technique known as contact mapping. See more below from Dr. Erez Aiden's talk at the Scripps Research Translational Institute.
+To study the 3D organization and structure of chromatin, we use Hi-C data.
+
+Hi-C data represent one major approach for studying 3D interactions within the cell, using a technique known as contact mapping. Hi-c files are created by proximity ligation experiments (SEE MORE), which allows us to take "snapshots" of chromatin and cataloging what regions of the chromatin interact with each other. After a large amount of "snapshots", we can begin to get a complete picture of how the genome is organized.
+
+<p align=center>
+<img  class="centered" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/snapshot_nucleus.PNG" alt=""/>
+
+And this manifests itself as a Hi-c file! Below we can see an example of a typical hic file zoomed out. Notice how we can see dsitinct squares, those are the different chromosomes! The reason why they are more red (increased contacts) is because chromosomes tend to interact with themselves more than other chromosomes! 
+<p align=center>
+<img  class="centered" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/basic_hic.PNG" alt=""/>
+
+There are other genomic features other than chromosomes that can be visualized on Hi-c images like loops, domains and compartments. Keep reading to find out more!
+<br>
+----
+## Additional Resources
+
+For more information, See Dr. Erez Aiden's talk at the Scripps Research Translational Institute.
 
 [Erez Aiden Talk](https://www.youtube.com/embed/bPjQynxMZ4w ':include :type=iframe width=100% height=400px')
 
-# What is a Contact Matrix #
-
-# Hi-C Protocol #
-
-# Additional Resources #
-
-(table of papers)
+| Paper Name  | Link   |
+|-----------------|:--------------:|
+| A 3D Map of the Human Genome at Kilobase Resolution Reveals Principles of Chromatin Looping | [Link](https://www.cell.com/fulltext/S0092-8674(14)01497-4)    |
+| Chromatin extrusion explains key features of loop and domain formation in wild-type and engineered genomes     | [Link](https://www.pnas.org/doi/10.1073/pnas.1518552112)            |
+| Juicer Provides a One-Click System for Analyzing Loop-Resolution Hi-C Experiments      | [Link](https://pubmed.ncbi.nlm.nih.gov/27467249/)            |
+|  Juicebox Provides a Visualization System for Hi-C Contact Maps with Unlimited Zoom     |   [Link](https://pubmed.ncbi.nlm.nih.gov/27467250/)             |
+| De novo assembly of the Aedes aegypti genome using Hi-C yields chromosome-length scaffolds        |   [Link](https://www.science.org/doi/full/10.1126/science.aal3327)             |
+| Cohesin Loss Eliminates All Loop Domains      | [Link](https://www.sciencedirect.com/science/article/pii/S0092867417311200)            |
