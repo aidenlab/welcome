@@ -5,7 +5,8 @@ Every single cell in your body has the exact same DNA Sequence, yet we observe v
  >This regulation is largely determined by the 3D structure and organization of our *chromatin*, which is the uncoiled form of DNA present most of the cell's life cycle. 
 
 Therefore to understand the variations that exist between all life on earth, between the sick and healthy, and within ourselves, let us enter the microscopic world inside the nucleus and investigate the 3D organization of chromatin.
-
+<br>
+----
 ## What is Hi-C? 
 
 To study the 3D organization and structure of chromatin, we use Hi-C data.
