@@ -1,4 +1,4 @@
-# Downloading Juicer 
+## Downloading Juicer 
 *If you're not using HiCCUPS, any of the below jars should work on your system. Otherwise, please download the jar corresponding to your version of CUDA*
 
 **Please note that these jars are compiled from the source at the [Juicebox repository](https://github.com/theaidenlab/juicebox/wiki/Compile-or-Contribute/)**

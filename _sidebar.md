@@ -19,12 +19,11 @@
   * [Straw R](straw.wiki/R.md)
 - End-to-end processing of Hi-C data
   * [Introduction to Juicer](juicer.wiki/Home)
+  * [Download](juicer.wiki/Download)
   * [Installation](juicer.wiki/Installation)
   * [Usage](juicer.wiki/Usage)
   * [Juicer on a cluster](juicer.wiki/Running-Juicer-on-a-cluster)
   * [Juicer in the cloud](juicer.wiki/Running-Juicer-on-Amazon-Web-Services)
-  * [Download](juicer.wiki/Download)
-  * [Quick Start](juicer.wiki/Juicer-Tools-Quick-Start)
   * Advanced Usage
     * [Read this first!](juicer.wiki/Advanced)
     * [Building `hic` files](hictools.wiki/Pre)

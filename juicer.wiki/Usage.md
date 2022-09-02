@@ -1,5 +1,6 @@
-```
- Usage: juicer.sh [-g genomeID] [-d topDir] [-q queue] [-l long queue] [-s site]
+## `Juicer Usage`
+```bash
+juicer.sh [-g genomeID] [-d topDir] [-q queue] [-l long queue] [-s site]
                  [-a about] [-S stage] [-p chrom.sizes path]
                  [-y restriction site file] [-z reference genome file]
                  [-C chunk size] [-D Juicer scripts directory]
@@ -59,7 +60,8 @@
 * **Relaunch** via the same script. Type juicer.sh [options] -S stage where "stage" is one of chimeric, merge, dedup, final, postproc, or early. "chimeric" is when alignment is done but not chimera read handling. See below for more information. "merge" is for when alignment has finished but merged_sort hasn't been created; "dedup" is for when merged_sort is there but not merged_nodups (this will relaunch all dedup jobs); "final" is for when merged_nodups is there and you want the stats and hic files; "postproc" is for when you have the hic files and just want feature annotations; and "early" is for early exit, before hic file creation. You can also assign early exit via the "-e" flag and start at one of the other stages. If your jobs failed at the alignment stage, run relaunch_prep.sh and then run juicer.sh.
 * **Miscelleaneous** options include -a 'experiment description', which will add the experiment description to the statistics file and the meta data in the hic file; -f for including fragment maps in the Hi-C file creation; and -D [Juicer scripts directory], to set an alternative Juicer directory; must have scripts/, references/, and restriction_sites/ underneath it
 
-# Adding a new genome #
+----
+## `Adding a new genome`
 To add a new genome to Juicer, follow these steps:
 
 1. Download genome fasta file, put in references folder
@@ -68,7 +70,8 @@ To add a new genome to Juicer, follow these steps:
 4. Once generate_site_positions is done, run `awk 'BEGIN{OFS="\t"}{print $1, $NF}' mygenome_myenzyme.txt > mygenome.chrom.sizes` (where mygenome is your genome, like hg19, and myenzyme is your enzyme, like MboI)
 5. Run juicer.sh with the flags `-z <path to genome fasta file>`, `-p <path to mygenome.chrom.sizes>`, and  `-y <path to  mygenome_myenzyme.txt>`
 
-# Creating a "mega" map #
+----
+## `Creating a "mega" map`
 To create statistics and a hic file from a series of replicates, you can use the `mega.sh` script.
 
 Create the following directory structure (the files can be soft-linked):
@@ -94,7 +97,8 @@ And then run mega.sh with the same kinds of flags as with Juicer:
 ```
 A "mega" folder will be created at `/opt/juicer/work/HeLa/mega` and underneath that, the `aligned` folder will contain the results.
 
-# Running on already aligned files #
+----
+## `Running on already aligned files`
 	
 * Make top directory, fastq, splits: `mkdir experiment; cd experiment; mkdir fastq; mkdir splits`
 * Put in splits folder with <filename1>.fastq.sam, filename2.fastq.sam, etc. For bams, use samtools view to write to sam

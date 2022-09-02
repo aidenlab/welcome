@@ -19,6 +19,8 @@
 the [Juicer tools jar](Download) and install it in your `scripts/` directory.
 3. Run [Juicer](Usage).
 
+----
+
 ## `Example with CPU version ` 
   ```bash
   git clone https://github.com/theaidenlab/juicer.git
@@ -66,7 +68,10 @@ wget http://juicerawsmirror.s3.amazonaws.com/opt/juicer/work/HIC003/fastq/HIC003
 cd ..
 /home/scripts/juicer.sh -D /home
 ```
-### Test data
+
+----
+
+## `Test data`
 Test data can be found here:
 * MiSeq GM12878 in-situ files:
     * [HIC003_R1.fastq.gz](http://juicerawsmirror.s3.amazonaws.com/opt/juicer/work/HIC003/fastq/HIC003_S2_L001_R1_001.fastq.gz)
@@ -76,8 +81,9 @@ Test data can be found here:
    * [chr19_R2.fastq.gz](http://juicerawsmirror.s3.amazonaws.com/opt/juicer/work/MBR19/fastq/chr19_R2.fastq.gz)
 
 
+----
 
-# Cluster Specification #
+## `Cluster Specification`
 Juicer currently works with the following resource management software:
 * [OpenLava](http://www.openlava.org/)
 * [LSF](http://www-03.ibm.com/systems/services/platformcomputing/lsf.html)
@@ -86,7 +92,8 @@ Juicer currently works with the following resource management software:
 
 Make sure to copy the appropriate scripts from the github repo to your cluster or laptop, as well as the fastq reads and appropriate reference files.  You should download the [Juicer tools jar](Download) and install it in your `scripts/` directory.
 
-# Directory Structure #
+----
+## `Directory Structure` 
 See the [Box mirror](https://bcm.box.com/v/juicerawsmirror) for an easy-to-navigate view of the directory structure. 
 
 The following also shows a sample configuration of the all the files and directories on the cluster once Juicer is fully set up. It assumes that all files needed by Juicer are created under `/opt/juicer`. 
