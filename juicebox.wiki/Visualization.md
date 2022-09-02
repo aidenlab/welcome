@@ -1,4 +1,6 @@
-# Getting Oriented #
+# Getting Oriented
+
+----
 <img src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/guide/juicebox1.png" width="100%" title="Juicebox map loaded" />
 
 1. **Main menu**.  From the *File* menu, you can open maps, load control maps, see dataset metrics, and export an image. From the *Annotations* menu, you can load one dimensional and two dimensional features and see them alongside the Hi-C map. From the *Bookmarks* menu, you can save your location to load it again later.														
