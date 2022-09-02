@@ -1,4 +1,4 @@
-# Quick Description #
+## `Arrowhead Intro`
 Arrowhead is an algorithm for finding contact domains.
 
 This is the usage that most users will likely use (more detailed usage [below](#detailed-usage)):
@@ -7,7 +7,8 @@ arrowhead <HiC file> <output_file>
 ```
 Upon a successful run of Arrowhead, output_file will contain all the contact domains found along the diagonal in [this format](#domain-list-content).
 
-## Examples ##
+----
+## `Example`
 
 See this Colab notebook with an example run: [notebook](https://colab.research.google.com/drive/1XelZowBWxBghSyS11rvs90Zmazsj_HPh?usp=sharing)
 
@@ -23,7 +24,8 @@ This command will run Arrowhead at resolution 5kB on the GM12878 HiC map (high r
 
 Default parameters for arrowhead described [below](#defaults).
 
-# Detailed Usage #
+----
+## `Detailed Usage`
 ```
 arrowhead [-c chromosome(s)] [-m matrix size] [-r resolution] [--threads num_threads]
 		[-k normalization (NONE/VC/VC_SQRT/KR)] <HiC file> 
@@ -47,7 +49,8 @@ The optional arguments are:
 * `-k <NONE/VC/VC_SQRT/KR>` Normalizations (case sensitive) that can be selected. Generally, KR (Knight-Ruiz) balancing should be used when available. 
 * `--threads <int>` Number of threads to use (Arrowhead is multi-threaded). As of Juicer Tools Version 1.13.02, the default number of threads used is 1. Passing in a value of 0 will result in the jar calculating the number of available threads. Passing in a value >0 will result in that value being used directly. 
 
-## Defaults ##
+----
+## `Defaults`
 Arrowhead uses the following parameters if optional flags are not provided.
 
 Medium resolution maps: 
@@ -65,8 +68,8 @@ High resolution maps:
 -r 5000 
 -k KR
 ```
-
-### Domain List Content ###
+----
+## `Domain List Content`
 The contact domain list created by Arrowhead will start with a header line, followed by a line for every contact domain. By default, the file should contain 12 fields per line in the following format:
 ```
 chromosome1    x1    x2    chromosome2    y1    y2    color    

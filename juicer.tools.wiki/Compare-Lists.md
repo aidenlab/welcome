@@ -1,6 +1,10 @@
+## `Compare loop list Intro`
+
 The comparing lists option includes a few helper functions for analyses common with loop lists. In particular, it can check for exact differences (useful for debugging, not differential loops - for differential loops, use [HiCCUPS Diff](HiCCUPSDiff)) as well as convergent CTCF statistics for a loop list with motifs.
 
-# Usage #
+----
+
+## **`Usage`**
 ```
 compare [-m threshold] [-c chromosome(s)] <compareType> <genomeID> <list1> <list2> [output_path]
                  compareType:   0 - overlap/intersect within distance threshold
@@ -8,8 +12,9 @@ compare [-m threshold] [-c chromosome(s)] <compareType> <genomeID> <list1> <list
                                 2 - convergence calculation for list1 with ctcf motifs
 ```
 
+----
 
-# Examples #
+## **`Examples`**
 ```
 java -jar juicer_tools.jar compare -m 25000 -c 1,2,3 0 hg19 looplist1.bedpe looplist2.bedpe results_folder
 ```

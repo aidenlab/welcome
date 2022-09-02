@@ -10,7 +10,6 @@
     * [Annotations](juicebox.wiki/Loading-Annotations-(Annotations-menu))
     * [Exploring the Data](juicebox.wiki/Exploring-the-Data)
     * [Bookmarks](juicebox.wiki/Bookmarks)
-    * [Assembly Tools](juicebox.wiki/Juicebox-Assembly-Tools)
 - Programmatic Access to Hi-C Data
   * [Introduction to Straw](straw.wiki/Home.md)
   * [Straw C++](straw.wiki/CPP.md)

@@ -1,5 +1,5 @@
 # Finding DNA Motifs for Loops (MotifFinder)
-## Usage ##
+## `Usage`
 ```
 motifs <genomeID> <bed_file_dir> <looplist> [custom_global_motif_list]
 ```
@@ -14,7 +14,9 @@ The required arguments are:
 Optional arguments:
 * [custom_global_motif_list]: Motif list output using FIMO format (by default, Juicer will attempt to find the file from an online repository). Genomewide [FIMO](http://meme-suite.org/doc/fimo.html) motifs are available on [Box](https://bcm.app.box.com/v/juicerawsmirror) under `/opt/juicer/references/genomewide_ctcf_motif_fimo`.
 
-## Examples ##
+----
+
+## `Examples`
 See this Colab notebook with an example run: [notebook](https://colab.research.google.com/drive/1ucttsmbfJ7_HVw3VkWPSy-xqNKYF_VDh?usp=sharing)
 
 Assuming the following file structure is present:
@@ -40,7 +42,9 @@ motifs hg19 /path/to/local/bed/files2 gm12878_hiccups_loops.txt
 ```
 This command will use default motifs for hg19/hg38/mm9/mm10 for the loops in gm12878_hiccups_loops.txt and save them to gm12878_hiccups_loops_with_motifs.txt. The CTCF BED file will be used to find unique and inferred motifs.
 
-## Result ##
+----
+
+## `Result`
 
 Motif Finder will create a new file looplist_with_motifs.txt, which will add 10 fields for each loop in the loop list. See original loop list fields [here](HiCCUPS#loop-list-content).
 
