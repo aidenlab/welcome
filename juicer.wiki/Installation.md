@@ -1,11 +1,26 @@
-# Quick Start #
+# Installation
+
+----
+
+## `Dependencies`
+* For alignment and creation of the Hi-C pairs file `merged_nodups.txt`:
+   * [GNU CoreUtils](https://www.gnu.org/software/coreutils/manual/)
+   * [Burrows-Wheeler Aligner (BWA)](http://bio-bwa.sourceforge.net/)
+* For .hic file creation and [Juicer tools analysis](https://github.com/theaidenlab/juicer/wiki/Feature-Annotation): 
+   * [Java 1.7 or 1.8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). 
+([Alternative link](http://tecadmin.net/install-oracle-java-8-jdk-8-ubuntu-via-ppa/) for Ubuntu/LinuxMint).  Minimum system requirements for running Java can be found at http://java.com/en/download/help/sysreq.xml
+   * [Latest Juicer Tools jar](https://github.com/theaidenlab/juicer/wiki/Download)
+* For peak calling:
+   * [CUDA](https://developer.nvidia.com/cuda-downloads) and an NVIDIA GPU
+   * The native libraries included with Juicer are compiled for CUDA 7. Other versions of CUDA can be used, but you will need to download the respective native libraries from [JCuda](http://www.jcuda.org/downloads/downloads.html).
+   * For best performance, use a dedicated GPU. You may also be able to obtain access to GPU clusters through Amazon Web Services or a local research institution.
 1. Verify that you've installed all [dependencies](#dependencies).
 2. Set up your [directories](#directory-structure). You should have a Juicer directory containing `scripts/`, `references/`, and optionally `restriction_sites/`, and a different working directory containing `fastq/`. You should download
 the [Juicer tools jar](Download) and install it in your `scripts/` directory.
 3. Run [Juicer](Usage).
 
-### Example with CPU version  
-  ```
+## `Example with CPU version ` 
+  ```bash
   git clone https://github.com/theaidenlab/juicer.git
   cd <myJuicerDir>
   ln -s ~/juicer/CPU scripts
@@ -24,7 +39,8 @@ the [Juicer tools jar](Download) and install it in your `scripts/` directory.
 ```
 `<myJuicerDir>` is where ever you want to store the Git repository (keeping in mind you will want to pull updates).  `<my_reference_fastas_and_indices>` is your reference assembly and the BWA index files. `<myRestrictionSiteDir>` will contain the restriction site files, see below for more information.  `<fastq_files>` are your sequenced reads; they can remain gzipped.
 
-### Example with cluster version and downloading reference files
+----
+## `Example with cluster version and downloading reference files`
 ```
 cd /home
 mkdir references; cd references
@@ -59,18 +75,7 @@ Test data can be found here:
    * [chr19_R1.fastq.gz](http://juicerawsmirror.s3.amazonaws.com/opt/juicer/work/MBR19/fastq/chr19_R1.fastq.gz) 
    * [chr19_R2.fastq.gz](http://juicerawsmirror.s3.amazonaws.com/opt/juicer/work/MBR19/fastq/chr19_R2.fastq.gz)
 
-# Dependencies #
-* For alignment and creation of the Hi-C pairs file `merged_nodups.txt`:
-   * [GNU CoreUtils](https://www.gnu.org/software/coreutils/manual/)
-   * [Burrows-Wheeler Aligner (BWA)](http://bio-bwa.sourceforge.net/)
-* For .hic file creation and [Juicer tools analysis](https://github.com/theaidenlab/juicer/wiki/Feature-Annotation): 
-   * [Java 1.7 or 1.8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). 
-([Alternative link](http://tecadmin.net/install-oracle-java-8-jdk-8-ubuntu-via-ppa/) for Ubuntu/LinuxMint).  Minimum system requirements for running Java can be found at http://java.com/en/download/help/sysreq.xml
-   * [Latest Juicer Tools jar](https://github.com/theaidenlab/juicer/wiki/Download)
-* For peak calling:
-   * [CUDA](https://developer.nvidia.com/cuda-downloads) and an NVIDIA GPU
-   * The native libraries included with Juicer are compiled for CUDA 7. Other versions of CUDA can be used, but you will need to download the respective native libraries from [JCuda](http://www.jcuda.org/downloads/downloads.html).
-   * For best performance, use a dedicated GPU. You may also be able to obtain access to GPU clusters through Amazon Web Services or a local research institution.
+
 
 # Cluster Specification #
 Juicer currently works with the following resource management software:
