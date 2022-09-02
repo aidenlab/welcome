@@ -1,5 +1,5 @@
 <p align=center>
-<img src="https://github.com/theaidenlab/straw/wiki/images/graphic_straw.png" alt="StrawLogo" align=center /> 
+<img src="https://github.com/theaidenlab/straw/wiki/images/graphic_straw.png" width="70%" alt="StrawLogo" align=center /> 
 </p>
 
 ---

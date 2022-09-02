@@ -1,10 +1,17 @@
+## `Installing and Loading Straw in R`
+
 Straw is compatible with R via the Rcpp library.  Usage is very similar to the [examples on the C++ page](https://github.com/theaidenlab/straw/wiki/CPP#running).  Future versions might use a different signature to call the function.
 
 ```
 library(Rcpp)
 sourceCpp("straw-R.cpp")
-A<-straw_R("NONE drosophila.hic arm_2L arm_2L BP 100000")
 ```
+----
+
+## `Using Straw in R`
+
+```A<-straw_R("NONE drosophila.hic arm_2L arm_2L BP 100000")```
+
 In the above example, A is a data frame containing the counts information:
 
 ```
@@ -18,5 +25,6 @@ In the above example, A is a data frame containing the counts information:
 6 3000000 16500000     27
 ```
 
-# Troubleshooting #
+----
+## `Troubleshooting`
 Please see this <a href="http://aidenlab.org/forum.html?place=msg%2F3d-genomics%2FsD2JOOoLBZw%2F3M1xgAlOBAAJ">forum post</a> for a solution to a compilation error that some users have experienced.

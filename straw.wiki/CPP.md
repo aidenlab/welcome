@@ -1,26 +1,19 @@
-# Compiling
+## `Compiling Straw in C++`
 
 ```bash
 g++ -std=c++0x -o straw main.cpp straw.cpp -lcurl -lz
 ```
-
-You must have cURL installed.
-Please see [the wiki](https://github.com/aidenlab/straw/wiki) for more documentation.
-
-For questions, please use
-[the Google Group](https://groups.google.com/forum/#!forum/3d-genomics).
-
-straw must be compiled with the `-lz` flag to include the zlib.h library: 
- 
-On Linux, you may need to use this flag to compile: `-std=c++11`
+- You must have cURL installed.
+- straw must be compiled with the `-lz` flag to include the zlib.h library: 
+- On Linux, you may need to use this flag to compile: `-std=c++11`
 
 On Windows, we've compiled using Cygwin. Order matters, put the linking libraries last:
 
 ```bash
 g++ -o straw main.cpp straw.cpp -lz -std=c++11
 ```
-
-# Running
+----
+## `Running straw in C++`
 Usage: 
    
 ```bash
@@ -38,3 +31,6 @@ Extract reads between 1MB and 7.5MB on chromosome 1 at 25KB resolution with KR (
 ```bash
 straw KR HIC001.hic 1:1000000:7400000 1:1000000:7400000 BP 25000
 ```
+----
+*For questions, please use*
+[the Google Group](https://groups.google.com/forum/#!forum/3d-genomics).
