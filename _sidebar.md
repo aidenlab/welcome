@@ -13,7 +13,7 @@
   * Juicebox Desktop Tutorial
     * [Download](juicebox.wiki/Download)
     * [Intro](juicebox.wiki/JBDesktop/JBDesktop)
-    * [Loading Annotations (Desktop)](juicebox.wiki/JBDesktop/JBDesktop)
+    * [Loading Annotations (Desktop)](juicebox.wiki/JBDesktop/loadingannotations)
     * [Comparing Maps (Desktop)](juicebox.wiki/JBDesktop/comparingmaps)
     * [Drawing Custom Annotations](juicebox.wiki/JBDesktop/drawingannotations)
 
