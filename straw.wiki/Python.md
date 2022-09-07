@@ -108,3 +108,7 @@ hicstraw.straw(data_type, normalization, file, region_x, region_y, 'BP', resolut
 Note: the normalization, resolution, and chromosome/regions must already exist in the .hic to be read 
 (i.e. they are not calculated by straw, only read from the file if available)<br>
 
+If youre interested in learning more, we have a step by step online Colab Notebook where you can run straw for yourself on the cloud! 
+
+[https://colab.research.google.com/drive/1-GG-n-p9nZ7Be82UVJG7n3Q_wQ9IeuFN?usp=sharing#scrollTo=0oiQItLYJRpA](https://colab.research.google.com/drive/1-GG-n-p9nZ7Be82UVJG7n3Q_wQ9IeuFN?usp=sharing#scrollTo=0oiQItLYJRpA)
+
