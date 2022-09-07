@@ -10,7 +10,7 @@ The Juicer Tools and Juicebox software is centered around the [*.hic* file](Data
 By default, *.hic* files are created from a text file describing the Hi-C reads and bin the reads at 9 base-pair-delimited resolutions: 2.5M, 1M, 500K, 250K, 100K, 50K, 25K, 10K, and 5K.  If the user sends in a restriction site file, an additional 8 fragment-delimited resolutions are added: 500f, 250f, 100f, 50f, 20f, 5f, 2f, 1f.
 
 ----
-## `Pre Usage`
+## Pre Usage
 The *pre* command allows users to create *.hic* files from their own data. It takes three required arguments and a number of optional arguments. 
 
 The required arguments are:
@@ -43,12 +43,12 @@ As of version 1.14.07:
 
 ----
 
-## `File formats`
+## File formats
 The *pre* command accepts several formats.
 
 **IMPORTANT NOTE** *pre* throws away reads that map to the same restriction fragment. If you use dummy numbers for the `frag` field, be sure they are different for the different read ends; that is, `<frag1>` should be 0 and `<frag2>` should be 1.
 
-### `Medium format`
+### Medium format
 A whitespace separated file that contains, on each line
 ```
 <readname> <str1> <chr1> <pos1> <frag1> <str2> <chr2> <pos2> <frag2> <mapq1> <mapq2>
@@ -62,7 +62,7 @@ A whitespace separated file that contains, on each line
 
 If not using the restriction site file option, frag will be ignored, but please see above note on dummy values. If not using mapping quality filter, mapq will be ignored. readname and strand are also not currently stored within .hic files.
 
-### `Short format`
+### Short format
  A whitespace separated file that contains, on each line
 ```
 <str1> <chr1> <pos1> <frag1> <str2> <chr2> <pos2> <frag2>
@@ -75,7 +75,7 @@ If not using the restriction site file option, frag will be ignored, but please 
 If not using the restriction site file option, frag will be ignored, but please see above note on dummy values. readname and strand are also not currently stored within *.hic* files.
 
 
-### `Short with score format`
+### Short with score format
 This format is useful for reading in already processed files, e.g. those that have been already binned and/or normalized; this format can be easily used in conjunction with the `-r` flag to create a *.hic* file that contains a single resolution.
 
 A whitespace separated file that contains, on each line
@@ -90,7 +90,7 @@ A whitespace separated file that contains, on each line
 
 If not using the restriction site file option, frag will be ignored, but please see above note on dummy values. readname and strand are also not currently stored within *.hic* files.
 
-### `Long format`
+### Long format
 The long format is used by [Juicer](https://github.com/theaidenlab/juicer) and takes in directly the *merged_nodups.txt* file.
 
 A whitespace separated file that contains, on each line
@@ -107,7 +107,7 @@ A whitespace separated file that contains, on each line
 
 If not using the restriction site file option, frag will be ignored, but please see above note on dummy values. If not using mapping quality filter, mapq will be ignored. readname, strand, cigar, and sequence are also not currently stored within *.hic* files.
 
-### `4DN DCIC format`
+### 4DN DCIC format
 A file that follows [the 4DN DCIC format specification](https://github.com/4dn-dcic/pairix/blob/master/pairs_format_specification.md).  
 See that link for more information.  Briefly, there should be a header with the first seven columns reserved:
 ```  
@@ -116,12 +116,12 @@ See that link for more information.  Briefly, there should be a header with the 
 ```
 If the columns line contains (in any field after field 7) both frag1 and frag2, those will also be read in; otherwise Pre will set frag1=0 and frag2=1, so that no reads are discarded.  Other fields are ignored.
 
-### `Extra short format (dev)`
+### Extra short format (dev)
 ```
 <chr1> <pos1> <chr2> <pos2> [score]
 ```
 
-### `Restriction site file format`
+### Restriction site file format
 The restriction file format is whitespace delimited and contains one line for each chromosome.  The first field on each line is the chromosome name, followed by the locations of the restriction sites on that chromosome, in linear order.  For example, the first few lines of hg19_DpnII.txt looks like this:
 ```
 1 11160 12411 12461 ... 249250621
@@ -134,16 +134,16 @@ You can find some commonly used restriction site files on [our Box mirror](https
 
 The Juicer script [generate site positions](https://github.com/theaidenlab/juicer/blob/master/misc/generate_site_positions.py) creates this file from a given genome and restriction site.
 
-### `Statistics and graphs file formats`
+### Statistics and graphs file formats
 TBA - information on how to create a properly formatted statistics and graphs file so that the "Dataset Metrics" tab in Juicebox will look normal.  For now, see the [statistics.pl file in Juicer](https://github.com/theaidenlab/juicer/blob/master/UGER/scripts/statistics.pl) for an example.
 
-### `Further technical details about .hic files`
+### Further technical details about .hic files
 You can find the file specification for .hic files [here](https://github.com/theaidenlab/juicebox/blob/master/HiC_format_v8.docx) and in the [supplementary table](http://www.cell.com/cms/attachment/2065039642/2066196727/mmc2.xlsx) to our Juicer paper. The [supplementary materials]
 (http://www.cell.com/cms/attachment/2065039642/2066196726/mmc1.pdf) also have further detail.
 
 ----
 
-## `Examples`
+## Examples
 Data files used in these examples can be found on [BCM Box](https://bcm.box.com/v/juicer-tools-testing)
 
 ```

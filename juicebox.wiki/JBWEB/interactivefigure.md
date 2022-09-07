@@ -1,6 +1,5 @@
-# Practice: Interactive Figure
+## Practice: Interactive Figure
 
-----
 We’re going to recreate a figure! It will be an interactive figure, enabling you to easily verify the findings. You can see an example of an interactive figure here: [https://www.cell.com/cell/9802-figure-2](https://www.cell.com/cell/9802-figure-2). *Rao et al., Cell 2017* looked at what happens to genome architecture when you remove cohesin and then introduce it again. 
 
 1. Click `Load Map → Juicebox Archive` 

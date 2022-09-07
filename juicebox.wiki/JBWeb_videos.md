@@ -1,4 +1,4 @@
-# Juicebox Web Video Guide #
+## Juicebox Web Video Guide
 
 [Juicebox Web Overview](https://www.youtube.com/embed/xA6CLsG_GAs ':include :type=iframe width=100% height=400px')
 

@@ -1,9 +1,9 @@
-## `Installing Straw in Python`
+## Installing Straw in Python
 
 Once you've installed the library with `pip install hic-straw` or `python3 -m pip install hic-straw`, you can import your code with `import hicstraw`. 
 
 ----
-## `Using straw in Python`
+## Using straw in Python
 
 The new usage for straw allows you to create objects and retain intermediate variables.
 This can speed up your code significantly when querying hundreds or thousands of regions
@@ -68,7 +68,7 @@ Note: the normalization, resolution, and chromosome/regions must already exist i
 
 ----
 
-## `Legacy usage to fetch list of contacts`
+## Legacy usage to fetch list of contacts
 
 For example, to fetch a list of all the raw contacts on chrX at 100Kb resolution:
 

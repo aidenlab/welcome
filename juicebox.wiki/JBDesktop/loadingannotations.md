@@ -1,6 +1,3 @@
-# Loading Annotations (Desktop)
-
-----
 ## Loading 1D Annotations
 Let's load some ChIP-Seq tracks from ENCODE. 
 

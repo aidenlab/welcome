@@ -1,5 +1,8 @@
-# Finding DNA Motifs for Loops (MotifFinder)
-## `Usage`
+
+
+
+## How to use MotifFinder to find DNA Motifs for Loops
+
 ```
 motifs <genomeID> <bed_file_dir> <looplist> [custom_global_motif_list]
 ```
@@ -16,7 +19,7 @@ Optional arguments:
 
 ----
 
-## `Examples`
+## Examples
 See this Colab notebook with an example run: [notebook](https://colab.research.google.com/drive/1ucttsmbfJ7_HVw3VkWPSy-xqNKYF_VDh?usp=sharing)
 
 Assuming the following file structure is present:
@@ -44,7 +47,7 @@ This command will use default motifs for hg19/hg38/mm9/mm10 for the loops in gm1
 
 ----
 
-## `Result`
+## Result
 
 Motif Finder will create a new file looplist_with_motifs.txt, which will add 10 fields for each loop in the loop list. See original loop list fields [here](HiCCUPS#loop-list-content).
 

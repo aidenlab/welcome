@@ -1,7 +1,3 @@
-# Loading Annotations (Web)
-
-----
-
 ## Loading 1D Annotations
 
 Let's load some ChIP-Seq tracks from ENCODE.
@@ -46,7 +42,7 @@ We can edit how these 1D annotations appear in the visualization using the Gear 
 <img width="100%" class="centered" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/JBWEB_images/loadingannotations_6.png" alt="pic of search/multi search"/></left>
 
 ----
-# Loading 2D Annotations
+## Loading 2D Annotations
 Select `Load Tracks` in the top menu bar and click `ENCODE`. 
 
 Search for `GM12878 domains`. Select the one with all the replicates. 
@@ -73,7 +69,7 @@ You can edit the 2D annotations by selecting the 3 bars icon and then clicking 2
 
 ----
 
-# Putting together 1D and 2D annotations.
+## Putting together 1D and 2D annotations.
 You can line up what you see in the heat map with the tracks. Hold the Shift key to enable the straight edge as you click and drag the mouse to pan around the map.
 
 <left>

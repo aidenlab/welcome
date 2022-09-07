@@ -1,7 +1,4 @@
-# Juicebox (Desktop)
-----
-
-## ***Opening a .hic file***
+## Opening a .hic file
 
 The first step is to download Juicebox from [https://github.com/aidenlab/Juicebox/wiki/Download](https://github.com/aidenlab/Juicebox/wiki/Download)
 > Make sure you have Java installed on your system

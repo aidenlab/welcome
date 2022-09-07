@@ -1,10 +1,10 @@
-# Aggregate Peak Analysis (APA) Overview #
+## Aggregate Peak Analysis (APA) Overview 
 
 From [Rao&Huntley et al., 2014](http://www.cell.com/cell/abstract/S0092-8674(14)01497-4): To measure the aggregate enrichment of a set of putative peaks in a contact matrix, we plot the sum of a series of submatrices derived from that contact matrix. Each of these submatrices is a 210 kb x 210 kb square centered at a single putative peak in the upper triangle of the contact matrix. The resulting APA plot displays the total number of contacts that lie within the entire putative peak set at the center of the matrix; the entry immediately to the right of center corresponds to the total number of contacts in the pixel set obtained by shifting the peak set 10 kb to the right; the entry two positions above center corresponds to an upward shift of 20 kb and so on. Focal enrichment across the peak set in aggregate manifests as larger values at the center of the APA plot.
 
 ----
 
-## `Quick Description`
+## Quick Description
 
 This is the usage that most users will likely use (more detailed usage [below](#detailed-usage)):
 ```
@@ -13,7 +13,7 @@ apa [-r resolution(s)] [-c chromosomes] [-u save_all_data] <HiC file(s)> <PeaksF
 By default, APA will save APA.png in the specified folder. This will contain just the genomewide aggregate plot with regional scores. For data from all potential models, use the `-u` flag. A description of all results after a successful run of APA are included [below](#description-of-results).
 
 ----
-## `Examples`
+## Examples
 ```
 apa HIC006.hic all_loops.txt results1
 ```
@@ -34,7 +34,7 @@ This command will run APA at 50 kB resolution on chromosomes 17 and 18 for the s
 
 ----
 
-## `Detailed Usage`
+## Detailed Usage
 ```
 apa [-n minval] [-x maxval] [-w window] [-r resolution(s)] [-c chromosomes]
 		[-k NONE/VC/VC_SQRT/KR] [-q corner_width] [-e include_inter_chr] [-u save_all_data]
@@ -69,7 +69,7 @@ Default settings of optional arguments:
 ```
 
 ----
-## `Description of Results`
+## Description of Results
 
 If run with the `-u` flag, results for APA will be split up into different folders for each of the different chromosomes (for example, the `X` folder has results for the X chromosome), and then aggregated over all chromosomes in the `gw` (genomewide) folder. Each folder has a summary text file called `measures.txt`.
 

@@ -1,4 +1,4 @@
-## `Read First!`
+## Read First!
 Juicer is designed to be a simple one-click end-to-end pipeline that will complete all of your analysis (given a successful installation). This includes building the `hic` file and running downstream analysis (e.g. HiCCUPS, Arrowhead, etc.). 
 
 However, you may want to build custom `hic` files or run downstream analysis tools with different parameters - that is what this section is designed for. 

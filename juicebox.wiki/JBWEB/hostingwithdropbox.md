@@ -1,4 +1,4 @@
-# Hosting with Dropbox/Drive/GEO
+## Hosting with Dropbox/Drive/GEO
 
 While you can certainly use Amazon S3, Azure, and other file hosting services to store your .hic files, Dropbox works just as well and is quite easy to set up! 
 We'll go through a quick tutorial so you can see how easy it is to share results with your collaborators.
@@ -38,7 +38,7 @@ The map will then load. You can do everything you would do with a .hic file. You
 
 ----
 
-# Loading files from GEO
+## Loading files from GEO
 
 If you're interested in published data from a paper that performed Hi-C experiments, you can see if they've uploaded their processed data to GEO. For example, let's look at this series: [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE104333](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE104333)
 Scroll down and right-click the ftp link next to the file 180min_withdraw_combined.hic

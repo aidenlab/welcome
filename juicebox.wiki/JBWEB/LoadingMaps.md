@@ -1,6 +1,4 @@
-# Juicebox Web
-
-----
+## Juicebox Web
 
 We'll start with the lightweight version of Juicebox available on the web. Open a browser and type [`https://aidenlab.org/juicebox`](https://aidenlab.org/juicebox/) or click the hyperlink. 
 
@@ -12,7 +10,7 @@ Juicebox on the Web makes it easy to browse maps side-by-side and to share exact
 
 ----
 
-# Loading Maps
+## Loading Maps
 
 <center>
 <img width="50%" class="centered" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/JBWEB_images/loadingmaps_1.png" alt="pic of search/multi search"/></center>
@@ -30,7 +28,7 @@ The genome wide view will load for the .hic file.
 
 ----
 
-# Zooming in
+## Zooming in
 
 Let's zoom in on chromosome 17. To select the chromosome from the genome-wide view, you can:
 - Click on the three bar "hamburger" icon in the right top corner, then select the chromosome under the dropdown menu

@@ -1,4 +1,4 @@
-## `Running Juicer on a Cluster`
+## Running Juicer on a Cluster
 
 >Juicer is designed to be run on a cluster system. We have created versions of
 Juicer that run on [Univa](https://github.com/theaidenlab/juicer/tree/master/UGER), [SLURM](https://github.com/theaidenlab/juicer/tree/master/SLURM), and 

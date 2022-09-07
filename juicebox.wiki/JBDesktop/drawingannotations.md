@@ -1,6 +1,3 @@
-# Drawing Custom Annotations (Desktop)
-----
-
 ## Drawing Annotations
 
 We can record the differences we see in the GM12878 and IMR-90 maps.

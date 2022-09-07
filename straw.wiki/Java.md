@@ -1,10 +1,10 @@
-## `Installing Straw in Java`
+## Installing Straw in Java
 
 You'll first need to download the Java Straw jar and add it as a library dependency.
 
 ----
 
-## `Using Straw in Java`
+## Using Straw in Java
 
 Let's create hic dataset object. If you want to cache portions of the file, set the corresponding boolean to True. This uses more RAM, but if you want to repeatedly query nearby regions it can improve the speed of the requests. 
 

@@ -1,4 +1,4 @@
-## `Finding Loops (GPU)`
+## Finding Loops (GPU)
 HiCCUPS is an algorithm for finding chromatin loops.
 
 This is the usage that most users will likely use (more detailed usage [below](#detailed-usage)):
@@ -23,7 +23,7 @@ The merged_loops file uses [this format](#loop-list-content).
 
 ----
 
-## `Examples`
+## Examples
 NOTE: HiCCUPS will choose appropriate defaults for HiC files if no specifications are given
 
 ```
@@ -39,7 +39,7 @@ hiccups -m 1024 -r 5000,10000 -c 22 https://hicfiles.s3.amazonaws.com/hiseq/gm12
 This command will run HiCCUPS on chromosome 22 of GM12878 using [default parameters](#defaults) for 5kB and 10kB resolutions. The results will be merged and saved in the hiccups_results folder. The GPU will use matrix slices of size 1024x1024 (likely speeding up the computation on a dedicated GPU).
 
 ----
-## `Detailed Usage`
+## Detailed Usage
 ```
 hiccups [-m matrixSize] [-c chromosome(s)] [-r resolution(s)] [--threads num_threads]
 		[-k normalization (NONE/VC/VC_SQRT/KR)] [-f fdr] 
@@ -66,7 +66,7 @@ The optional arguments are:
 * `--threads <int>` Number of threads to use (HiCCUPS is multi-threaded). As of Juicer Tools Version 1.13.02, the default number of threads used is 1. Passing in a value of 0 will result in the jar calculating the number of available threads. Passing in a value >0 will result in that value being used directly. 
 
 ----
-## `Detailed Example`
+## Detailed Example
 
 See this Colab notebook with an example run: [notebook](https://colab.research.google.com/drive/1XelZowBWxBghSyS11rvs90Zmazsj_HPh?usp=sharing)
 
@@ -87,7 +87,7 @@ to achieve the same results.
 
 ----
 
-## `Defaults`
+## Defaults
 
 These are the default parameters in for HiCCUPS described with all the available flags, as described in <a href="http://www.cell.com/cell/abstract/S0092-8674(14)01497-4">Rao, Huntley et al. Cell 2014</a>.
 
@@ -118,7 +118,7 @@ High resolution maps:
 ```
 
 ----
-## `Loop List Content`
+## Loop List Content
 
 The merged loop list created by HiCCUPS will start with a header line, followed by a line for every loop. By default, the file should contain 20 fields per line in the following format:
 

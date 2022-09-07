@@ -1,8 +1,8 @@
-## `Important`
+## Important
 HiCCUPS CPU versions prior to 1.19.01 had a bug where not all potential regions were queried, so only the latest version should be used. Also, note that the CPU version remains experimental and that GPU HiCCUPS is the standard. Consider using the free GPUs on Google Colab. Here's an example run of HiCCUPS and Arrowhead: [notebook](https://colab.research.google.com/drive/1XelZowBWxBghSyS11rvs90Zmazsj_HPh?usp=sharing)
 
 ----
-## `General`
+## General
 HiCCUPS was developed to run on GPUs, as it is a computationally intensive algorithm which analyzes all intrachromosomal spaces to identify areas of local enrichment for peak identification. However, many groups may not have access to a GPU, and as such, we have introduced a modified version of HiCCUPS which will run on CPUs.
 
 The primary difference involves restricting the search space of the HiCCUPS algorithm to only search for peaks within 8MB of the diagonal. In practice, we do see that the vast majority of loops (especially CTCF mediated chromatin loops) are within a few megabases of the diagonal. 
@@ -12,7 +12,7 @@ The primary difference involves restricting the search space of the HiCCUPS algo
 However, due to this restriction of the intrachromosomal search space, the FDR thresholds calculated are slightly different from running the full GPU-based HiCCUPS. In addition, since the area of the region analyzed varies with the `-m` flag, slight differences in loops may result when using different sub-matrix sizes (area of window/region examined at a given time). 
 
 ----
-## `Usage`
+## Usage
 The CPU version of HiCCUPS uses exactly the same inputs (including all the optional parameters) as regular [HiCCUPS](HiCCUPS), with the addition of the `--cpu` flag
 ```
 hiccups --cpu [--threads num_threads] [-m matrixSize] [-c chromosome(s)] [-r resolution(s)] 
@@ -29,7 +29,7 @@ hiccups --restrict [-m matrixSize] [-c chromosome(s)] [-r resolution(s)]
 ```
 
 ----
-## `Example of Differences`
+## Example of Differences
 
 Using the cohesin-degron maps from [Rao et al. 2017](https://www.cell.com/cell/pdf/S0092-8674(17)31120-0.pdf), regular GPU-based HiCCUPS finds 3444 loops in the untreated megamap and 350 loops in the treated megamap. CPU-based HiCCUPS (and restricted GPU-based HiCCUPS) finds 3300 loops in the untreated megamap and 239 loops in the treated megamap.
 

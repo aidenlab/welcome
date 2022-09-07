@@ -1,4 +1,4 @@
-## `Add Norm`
+## Add Norm
 
 Juicer automatically calls addNorm as a part of <a href="https://github.com/aidenlab/juicer/wiki/Pre">Pre</a>. In case you have specifically not calculated norms by using the `-n` flag when calling <a href="https://github.com/aidenlab/juicer/wiki/Pre">Pre</a>, you may use the addNorm method to normalize. Additionally, you can submit your own vectors to be stored with the hic file. Multiple normalization vectors can be added in this manner; they will appear in the dropdown menu in using the names assigned in the file you provide.
 
@@ -18,19 +18,19 @@ As of version 1.14.07:
 
 ----
 
-## `Add additional vectors as the norm or scaling target (BETA)`
+## Add additional vectors as the norm or scaling target (BETA)
 We allow the ability to send in a text file that contains an additional pre-calculated normalization vector. Multiple such vectors can be specified in the same text file and built into the hic file. They will appear in the normalization drop down menu using the names provided in the text file. Prior loaded normalization vectors are not deleted and will be preserved.
 
 Furthermore, you may provide a target coverage vector to which the map is to be scaled to. To do so, use the `vector_scale` header rather than the `vector` header in the provided text file. Multiple such vectors can be provided in the same text file as long as the appropriate headers (`vector` and `vector_scale`) are used for each chromosome-resolution and normalization/target.
 
 ----
-## `Usage`
+## Usage
 ```
   addNorm <input_HiC_file> <input_normalization_vector>
 ```
 
 ----
-## `File format for normalization vector`
+## File format for normalization vector
 The file format for the normalization vector is a simple text file. For each new chromosome-resolution combination, there should be a new header line starting with the word `vector` or `vector_scale`. Then comes the name of the normalization, the chromosome, and the resolution.
 
 For example:

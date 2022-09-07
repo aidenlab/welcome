@@ -1,7 +1,7 @@
-## `Assembly Menu Options`
+## Assembly Menu Options
 
 ----
-### `Loading and Saving Assemblies`
+### Loading and Saving Assemblies
 
 Prerequisites:
 - Load Maps 
@@ -14,33 +14,33 @@ To load assemblies in Juicebox first load a .hic file then select "Import Map As
  <img src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/assembly_menu.png" alt="assembly_menu">
 
 To save the assembly changes made click "Export Assembly". This will create a .assembly file that can be used with a script to implement the changes in the original fasta file and can also be used to save the session.
-#### `Loading Previous Work`
+#### Loading Previous Work
 
 Load Original Map and .assembly file. Click on "Import Modified Assembly" and select previously saved work
-#### `Other`
+#### Other
 
 "Reset Assembly" will reset the assembly to its original state.
 "Set scale" is used for changing the scaling of the Hi-C map.
 "Exit Assembly" will exit the assembly mode in Juicebox.
 
 ----
-## `Assembly Changes`
+## Assembly Changes
 
-#### `Selecting genomic interval`
+#### Selecting genomic interval
 To select a single scaffold shift click on a scaffold. Shift click and drag to select an interval of more than one scaffold. Adjust the selection by clicking and dragging across the scaffolds of interest.
-#### `Move selection`
+#### Move selection
 Select one or more scaffolds then point and click mouse cursor near diagonal at intersection between scaffolds.
-#### `Invert selection`
+#### Invert selection
  <img src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/invert.png" alt="invert">
 
 Select one or more scaffolds. Move cursor to upper right/lower left corner of selection box and click when the prompt cursor appears.
-#### `Adjusting boundaries of superscaffolds`
+#### Adjusting boundaries of superscaffolds
  <img src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/group_ungroup.png" alt="group_ungroup">
 
 Select in between scaffolds at the diagonal to adjust the boundary of a superscaffold.
-#### `Correcting a misjoin`
+#### Correcting a misjoin
 Select a single scaffold and move the mouse cursor close to the diagonal. A cursor with a yellow box will appear. Resize the box using scroll. Then, click to split the scaffold into three smaller scaffolds. A short scaffold is formed inside the yellow box which is relocated to the end of the refrence genome assembly. The other two scaffolds stay in place and can be moved independently.
-#### `Right Click Menu`
+#### Right Click Menu
 
 <img src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/assembly_right_click_menu.png" alt="assembly_right_click_menu">
 
@@ -52,7 +52,7 @@ Jump to diagonal moves the view to the diagonal in the direction of the arrow.
 
 ----
 
-## `Supplemental Video Guide`
+## Supplemental Video Guide
 
 [Olga Dudchenko Talk](https://www.youtube.com/embed/UL1tPzJRDCE ':include :type=iframe width=100% height=400px')
 
@@ -60,7 +60,7 @@ Jump to diagonal moves the view to the diagonal in the direction of the arrow.
 
 [Olga Tutorial](https://www.youtube.com/embed/Nj7RhQZHM18 ':include :type=iframe width=100% height=400px')
 
-## `Genome Assembly Cookbook`
+## Genome Assembly Cookbook
 
 Want to learn more about assembly, and how you can assemble any genome for under 1000$, check out the Genome Assembly Cookbook!
 

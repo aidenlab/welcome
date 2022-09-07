@@ -1,6 +1,4 @@
-# Visualize from ENCODE website
-
-----
+## Visualize from ENCODE website
 
 Hi-C experiments can also be visualized directly from the ENCODE website at [https://www.encodeproject.org/](https://www.encodeproject.org/). In the search bar at the top, enter `erez-aiden HMEC` On the left, click "Experiment" to filter. 
 

@@ -1,4 +1,4 @@
-## `Compiling Straw in C++`
+## Compiling Straw in C++
 
 ```bash
 g++ -std=c++0x -o straw main.cpp straw.cpp -lcurl -lz
@@ -13,7 +13,7 @@ On Windows, we've compiled using Cygwin. Order matters, put the linking librarie
 g++ -o straw main.cpp straw.cpp -lz -std=c++11
 ```
 ----
-## `Running straw in C++`
+## Running straw in C++
 Usage: 
    
 ```bash

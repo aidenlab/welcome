@@ -3,7 +3,7 @@
 
 ----
 
-# Juicebox
+## Juicebox
 
 Juicebox is visualization software for Hi-C experiments. Using Juicebox, you can
 * visualize Hi-C maps by zooming in and out over many magnitudes of resolution in real time

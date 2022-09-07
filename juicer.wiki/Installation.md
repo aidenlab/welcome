@@ -1,8 +1,4 @@
-# Installation
-
-----
-
-## `Dependencies`
+## Dependencies for Installing Juicer
 * For alignment and creation of the Hi-C pairs file `merged_nodups.txt`:
    * [GNU CoreUtils](https://www.gnu.org/software/coreutils/manual/)
    * [Burrows-Wheeler Aligner (BWA)](http://bio-bwa.sourceforge.net/)
@@ -21,7 +17,7 @@ the [Juicer tools jar](Download) and install it in your `scripts/` directory.
 
 ----
 
-## `Example with CPU version ` 
+## Example with CPU version 
   ```bash
   git clone https://github.com/theaidenlab/juicer.git
   cd <myJuicerDir>
@@ -70,8 +66,7 @@ cd ..
 ```
 
 ----
-
-## `Test data`
+## Test data
 Test data can be found here:
 * MiSeq GM12878 in-situ files:
     * [HIC003_R1.fastq.gz](http://juicerawsmirror.s3.amazonaws.com/opt/juicer/work/HIC003/fastq/HIC003_S2_L001_R1_001.fastq.gz)
@@ -83,7 +78,7 @@ Test data can be found here:
 
 ----
 
-## `Cluster Specification`
+## Cluster Specification
 Juicer currently works with the following resource management software:
 * [OpenLava](http://www.openlava.org/)
 * [LSF](http://www-03.ibm.com/systems/services/platformcomputing/lsf.html)
@@ -93,27 +88,27 @@ Juicer currently works with the following resource management software:
 Make sure to copy the appropriate scripts from the github repo to your cluster or laptop, as well as the fastq reads and appropriate reference files.  You should download the [Juicer tools jar](Download) and install it in your `scripts/` directory.
 
 ----
-## `Directory Structure` 
+## Directory Structure
 See the [Box mirror](https://bcm.box.com/v/juicerawsmirror) for an easy-to-navigate view of the directory structure. 
 
 The following also shows a sample configuration of the all the files and directories on the cluster once Juicer is fully set up. It assumes that all files needed by Juicer are created under `/opt/juicer`. 
 
 You can also access another public mirror of these files by going to `https://s3.amazonaws.com/juicerawsmirror/opt/juicer/[paths_below]`, for example: https://s3.amazonaws.com/juicerawsmirror/opt/juicer/work/HIC003/fastq/HIC003_S2_L001_R1_001.fastq.gz.
 ```
-# tmp directory
+## tmp directory
 /opt/juicer/tmp
 
-# sample work directory is /opt/juicer/work/HIC003
+## sample work directory is /opt/juicer/work/HIC003
 /opt/juicer/work/HIC003/fastq
 /opt/juicer/work/HIC003/fastq/HIC003_S2_L001_R1_001.fastq.gz
 /opt/juicer/work/HIC003/fastq/HIC003_S2_L001_R2_001.fastq.gz
 
-# another sample work directory is /opt/juicer/work/MBR19
+## another sample work directory is /opt/juicer/work/MBR19
 /opt/juicer/work/MBR19/fastq
 /opt/juicer/work/MBR19/fastq/chr19_R1.fastq.gz
 /opt/juicer/work/MBR19/fastq/chr19_R2.fastq.gz
 
-# Core Juicer scripts from github in /opt/juicer/scripts
+## Core Juicer scripts from github in /opt/juicer/scripts
 /opt/juicer/scripts/chimeric_blacklist.awk
 /opt/juicer/scripts/statistics.pl
 /opt/juicer/scripts/stats_sub.awk
@@ -134,8 +129,8 @@ You can also access another public mirror of these files by going to `https://s3
 /opt/juicer/scripts/relaunch_prep.sh
 /opt/juicer/scripts/cleanup.sh
 
-# Sequence reference files in /opt/juicer/references
-# hg19 and mm9 reference files in mirror
+## Sequence reference files in /opt/juicer/references
+## hg19 and mm9 reference files in mirror
 /opt/juicer/references/Homo_sapiens_assembly19.fasta
 /opt/juicer/references/Mus_musculus_assembly9_norandom.fasta
 ```
@@ -144,7 +139,7 @@ Make sure to copy the appropriate scripts from the github repo to your cluster a
 
 After running BWA indexing (might take a couple hours) `bwa index <fasta file>`:
 ```
-# after running BWA indexing
+## after running BWA indexing
 /opt/juicer/references/Homo_sapiens_assembly19.fasta.sa
 /opt/juicer/references/Homo_sapiens_assembly19.fasta.ann
 /opt/juicer/references/Homo_sapiens_assembly19.fasta.amb
@@ -160,7 +155,7 @@ After running BWA indexing (might take a couple hours) `bwa index <fasta file>`:
 https://github.com/theaidenlab/juicer/blob/master/misc/generate_site_positions.py
 (If you don't use fragment delimited resolutions, you must run Juicer with the `-x` flag)
 ```
-# restriction sites files in /opt/juicer/restriction_sites
+## restriction sites files in /opt/juicer/restriction_sites
 /opt/juicer/restriction_sites/mm9_HindIII.txt
 /opt/juicer/restriction_sites/mm10_MboI.txt
 /opt/juicer/restriction_sites/mm10_DpnII.txt

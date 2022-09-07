@@ -1,5 +1,3 @@
-# Comparing Maps (Desktop)
-----
 ## Load a second map
 
 Continuing with the previously loaded GM12878 map, let’s load another Hi-C map and see if we can discover differences between cell lines!

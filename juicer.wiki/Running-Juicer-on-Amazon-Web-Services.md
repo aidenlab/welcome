@@ -1,4 +1,4 @@
-## `Launching an Instance`
+## Launching an Instance
 
 You'll first need to create an account with <a href="https://aws.amazon.com/">Amazon Web Services</a>.<br>
 
@@ -40,12 +40,12 @@ Click <strong>View Instances</strong> to see details regarding your new instance
 
 ----
 
-## `Connecting to the Instance`
+## Connecting to the Instance
 AWS has <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html">detailed instructions</a> for how to connect to your instance. We will briefly summarize them below.<br>
 
 <code>Note: get the public IP address from the <strong>View Instances</strong> page (50.16.4.165 in the example here).</code><br>
 
-### `UNIX (OS X/Linux)`
+### UNIX (OS X/Linux)
 Open Terminal and go to the folder containing the private key (.pem file).
 ```
 cd /path/to/folder
@@ -59,13 +59,13 @@ Connect with the AWS instance (ssh via public IP).
 ssh -i juicer_aws.pem ubuntu@50.16.4.165
 ```
 
-### `Windows`
+### Windows
 Source: <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html">AWS Instructions</a><br><br>
 Download <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">PuTTY and PuTTYgen</a>. Run PuTTYgen. Under <strong>Load an existing private key file</strong>, select the existing .pem file that was created above (e.g. <strong>juicer_aws.pem</strong>). **_Do not_** select "Generate a public/private key pair". A pop-up will appear saying you have imported a key. You'll then have the option to <strong>Save private key</strong>. Save it without a passphrase as <strong>juicer_aws.ppk</strong>.<br>
 Launch PuTTY. Expand the tabs under <strong>Connection>SSH>Auth</strong>. On the <strong>Auth</strong> page, there's an option to browse/load a private key file for authentication. Load the <strong>juicer_aws.ppk</strong> file here. Then go to the main session page. Use <strong>ubuntu@&lt;public_ip></strong> as the host name. Select <strong>Open</strong>.
 
 ----
-## `First-time Tweaks`
+## First-time Tweaks
 
 The very first time that you log into the instance (or if you ever stop and restart an instance), you'll need to configure LSF. First, find your <strong><strong>internal</strong> IP address</strong>. <code>This is different from your public IP address</code>.
 ```
@@ -116,7 +116,7 @@ sudo resize2fs filesystem-name
 For example, when creating the instance if you chose 8 TB for the EBS volume size, and using `df -h` you found the 8 TB volume to be `/dev/xvdf` then you would run `sudo resize2fs /dev/xvdf`
 
 ----
-## `Running the Juicer Pipeline`
+## Running the Juicer Pipeline
 
 Switch to the working directory
 ```
@@ -152,9 +152,9 @@ To download a file (e.g. inter.hic) from AWS to load into Juicebox, type:
   get ... (each of hiccups, apa, motifs, and arrowhead output files)  
 ```
 ----
-## `Common Issues`
+## Common Issues
 
-### `Juicer stalling after merge steps`
+### Juicer stalling after merge steps
 Especially when dealing with larger datasets, Juicer currently has a bug where after aligning and merging the jobs are stuck in only pending jobs. A temporary fix that may work is to first kill all the remaining jobs, and then run the following in screen (replacing the filenames matching with your files):
 
 `cat aligned/a1499807923_msplit*_optdups.txt > aligned/opt_dups.txt; cat aligned/a1499807923_msplit*_dups.txt > aligned/dups.txt;cat aligned/a1499807923_msplit*_merged_nodups.txt > aligned/merged_nodups.txt;`

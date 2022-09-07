@@ -1,5 +1,3 @@
-# Comparing Maps (Web)
-----
 ## Load another Map
 Continuing with the previously loaded GM12878 map, let’s load another Hi-C map and see if we can discover differences between cell lines!
 
@@ -55,7 +53,7 @@ You’ll notice that there is a peak in the RNA-seq track for IMR-90 on the gene
 
 ----
 
-# Loading as a Control Map
+## Loading as a Control Map
 
 Similar to Juicebox Desktop, you can load a second map into the same panel as the first map. This allows you divide the maps by each other or make a gif-style switch to cycle between the do.
 Instead of of adding a second map by using the + button, select the original map and use Load "B" Map. Once the map is loaded, additional buttons should appear.

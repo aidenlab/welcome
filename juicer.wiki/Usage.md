@@ -1,4 +1,4 @@
-## `Juicer Usage`
+## Juicer Usage
 ```bash
 juicer.sh [-g genomeID] [-d topDir] [-q queue] [-l long queue] [-s site]
                  [-a about] [-S stage] [-p chrom.sizes path]
@@ -61,7 +61,7 @@ juicer.sh [-g genomeID] [-d topDir] [-q queue] [-l long queue] [-s site]
 * **Miscelleaneous** options include -a 'experiment description', which will add the experiment description to the statistics file and the meta data in the hic file; -f for including fragment maps in the Hi-C file creation; and -D [Juicer scripts directory], to set an alternative Juicer directory; must have scripts/, references/, and restriction_sites/ underneath it
 
 ----
-## `Adding a new genome`
+## Adding a new genome
 To add a new genome to Juicer, follow these steps:
 
 1. Download genome fasta file, put in references folder
@@ -71,7 +71,7 @@ To add a new genome to Juicer, follow these steps:
 5. Run juicer.sh with the flags `-z <path to genome fasta file>`, `-p <path to mygenome.chrom.sizes>`, and  `-y <path to  mygenome_myenzyme.txt>`
 
 ----
-## `Creating a "mega" map`
+## Creating a "mega" map
 To create statistics and a hic file from a series of replicates, you can use the `mega.sh` script.
 
 Create the following directory structure (the files can be soft-linked):
@@ -98,7 +98,7 @@ And then run mega.sh with the same kinds of flags as with Juicer:
 A "mega" folder will be created at `/opt/juicer/work/HeLa/mega` and underneath that, the `aligned` folder will contain the results.
 
 ----
-## `Running on already aligned files`
+## Running on already aligned files
 	
 * Make top directory, fastq, splits: `mkdir experiment; cd experiment; mkdir fastq; mkdir splits`
 * Put in splits folder with <filename1>.fastq.sam, filename2.fastq.sam, etc. For bams, use samtools view to write to sam
