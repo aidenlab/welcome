@@ -105,3 +105,9 @@ A "mega" folder will be created at `/opt/juicer/work/HeLa/mega` and underneath t
 * Touch files in fastq directory with corresponding names: `cd fastq/; touch filename1_R1.fastq; touch filename1_R2.fastq; touch filename2_R1.fastq; touch filename2_R2.fastq`
 * Link to these from splits: `cd ../splits; ln -s ../fastq/* .`
 * Run with -S chimeric from top directory and whatever your flags are: `juicer.sh -S chimeric [other flags]`
+
+----
+
+## `Fastq` files
+These are the raw data files that come off the sequencer. They include the read name, the read (a string of A,C,T,G, or N) and base quality information. See [this article](https://en.wikipedia.org/wiki/FASTQ_format) for more information. Juicer takes `.fastq` files and transforms them into contact matrices stored in a `.hic` file. 
+

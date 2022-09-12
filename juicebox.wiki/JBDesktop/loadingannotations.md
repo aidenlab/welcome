@@ -42,6 +42,16 @@ Exit out of the `Annotation Panel`. You will see a series of yellow boxes and cy
 <left>
 <img width="70%" class="centered" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/juicebox.images/JBDesktop/loadingannotations4.png" alt="pic of search/multi search"/></left>
 
+### `bedpe` file format 
+The [`bedpe`](https://bedtools.readthedocs.io/en/latest/content/general-usage.html#bedpe-format) format is used for annotating 2D features, such as chromatin loop and contact domains. Bedpe files are tab-delimited. The header line looks like this:
+
+```
+#chr1  x1	 x2	    chr2   y1	      y2	  name	score  strand1  strand2	color [optional fields]
+chr5   85000000  89000000   chr5   85000000   89000000    .     .      .        .       255,0,0
+``` 
+
+Many of our software tools use `bedpe` files as direct inputs or outputs.
+
 ----
 ## Putting together 1D and 2D Annotations
 

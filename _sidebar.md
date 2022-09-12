@@ -1,20 +1,21 @@
 - [Getting started](README.md)
-- [Important Data Files](straw.wiki/Data)
+- [Hi-C Files](straw.wiki/Data)
 - Visualizing Hi-C Data
   * [Introduction to Juicebox](juicebox.wiki/Juicebox_intro)
-  * [Juicebox Web Intro](juicebox.wiki/JBWEB/LoadingMaps)
-  * [Loading Annotations (Web)](juicebox.wiki/JBWEB/LoadingAnnotations)
-  * [Comparing Maps (Web)](juicebox.wiki/JBWEB/ComparingMaps)
-  * [Sharing URLs (Web)](juicebox.wiki/JBWEB/Sharing)
-  * [Hosting with Dropbox/GEO](juicebox.wiki/JBWEB/hostingwithdropbox)
-  * [Visualize from ENCODE](juicebox.wiki/JBWEB/visualizeencode)
-  * [Practice: Interactive Figure](juicebox.wiki/JBWEB/interactivefigure)
-  * [Juicebox Web Videos](juicebox.wiki/JBWeb_videos)
+  * Juicebox Web Tutorial
+    * [Juicebox Web Intro](juicebox.wiki/JBWEB/LoadingMaps)
+    * [Loading Annotations](juicebox.wiki/JBWEB/LoadingAnnotations)
+    * [Comparing Maps](juicebox.wiki/JBWEB/ComparingMaps)
+    * [Sharing URLs](juicebox.wiki/JBWEB/Sharing)
+    * [Hosting with Dropbox/GEO](juicebox.wiki/JBWEB/hostingwithdropbox)
+    * [Visualize from ENCODE](juicebox.wiki/JBWEB/visualizeencode)
+    * [Practice: Interactive Figure](juicebox.wiki/JBWEB/interactivefigure)
+    * [Juicebox Web Videos](juicebox.wiki/JBWeb_videos)
   * Juicebox Desktop Tutorial
     * [Download](juicebox.wiki/Download)
     * [Intro](juicebox.wiki/JBDesktop/JBDesktop)
-    * [Loading Annotations (Desktop)](juicebox.wiki/JBDesktop/loadingannotations)
-    * [Comparing Maps (Desktop)](juicebox.wiki/JBDesktop/comparingmaps)
+    * [Loading Annotations](juicebox.wiki/JBDesktop/loadingannotations)
+    * [Comparing Maps](juicebox.wiki/JBDesktop/comparingmaps)
     * [Drawing Custom Annotations](juicebox.wiki/JBDesktop/drawingannotations)
 
 - Programmatic Access to Hi-C Data

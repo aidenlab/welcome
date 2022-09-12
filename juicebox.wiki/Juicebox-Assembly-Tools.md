@@ -1,3 +1,14 @@
+
+## Intro to 3DDNA and JBAT
+
+[Olga Dudchenko Talk](https://www.youtube.com/embed/UL1tPzJRDCE ':include :type=iframe width=100% height=400px')
+
+[JBAT Tetris](https://www.youtube.com/embed/IMmVp8FodmY ':include :type=iframe width=100% height=400px')
+
+[Olga Tutorial](https://www.youtube.com/embed/Nj7RhQZHM18 ':include :type=iframe width=100% height=400px')
+
+----
+
 ## Assembly Menu Options
 
 ----
@@ -51,14 +62,6 @@ redo 'cmd+r' or  'ctrl+r'
 Jump to diagonal moves the view to the diagonal in the direction of the arrow.
 
 ----
-
-## Supplemental Video Guide
-
-[Olga Dudchenko Talk](https://www.youtube.com/embed/UL1tPzJRDCE ':include :type=iframe width=100% height=400px')
-
-[JBAT Tetris](https://www.youtube.com/embed/IMmVp8FodmY ':include :type=iframe width=100% height=400px')
-
-[Olga Tutorial](https://www.youtube.com/embed/Nj7RhQZHM18 ':include :type=iframe width=100% height=400px')
 
 ## Genome Assembly Cookbook
 

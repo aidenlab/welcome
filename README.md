@@ -14,13 +14,13 @@ To study the 3D organization and structure of chromatin, we use Hi-C data.
 Hi-C data represent one major approach for studying 3D interactions within the cell, using a technique known as contact mapping. Hi-c files are created by proximity ligation experiments (SEE MORE), which allows us to take "snapshots" of chromatin and cataloging what regions of the chromatin interact with each other. After a large amount of "snapshots", we can begin to get a complete picture of how the genome is organized.
 
 <p align=center>
-<img  class="centered" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/snapshot_nucleus.PNG" alt=""/>
+<img  class="centered" width="50%" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/SNAPSHOT_nucleus.jpg" alt=""/>
 
-And this manifests itself as a Hi-c file! Below we can see an example of a typical hic file zoomed out. Notice how we can see dsitinct squares, those are the different chromosomes! The reason why they are more red (increased contacts) is because chromosomes tend to interact with themselves more than other chromosomes! 
+And this manifests itself as a Hi-C file! Below we can see an example of a typical hic file zoomed out. Notice how we can see dsitinct squares, those are the different chromosomes! The reason why they are more red (increased contacts) is because chromosomes tend to interact with themselves more than other chromosomes! 
 <p align=center>
 <img  class="centered" width="60%" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/simplehic.png" alt=""/>
 
-There are other genomic features other than chromosomes that can be visualized on Hi-c images like loops, domains and compartments. Keep reading to find out more!
+There are other genomic features other than chromosomes that can be visualized on Hi-C images like loops, domains and compartments. Keep reading to find out more!
 <br>
 ----
 ## Additional Resources
