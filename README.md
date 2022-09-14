@@ -1,8 +1,8 @@
 ## Enter the microscopic world inside your nucleus.
 
-Every single cell in your body has the exact same DNA Sequence, yet we observe vast differences in both structure and function within cells in our body. The differences between our transparent corneal cells and our highly conductive neurons exists not because of the content of our DNA, but rather how it is regulated.
+Every single cell in your body has the exact same DNA sequence, yet we observe vast differences in both structure and function within cells in our body. The differences between our transparent corneal cells and our highly conductive neurons exists not in the content of our DNA, but partly in how it is regulated.
 
- >This regulation is largely determined by the 3D structure and organization of our *chromatin*, which is the uncoiled form of DNA present most of the cell's life cycle. 
+ >This regulation is influenced by the 3D structure and organization of our *chromatin*, which is the uncoiled form of DNA present most of the cell's life cycle. 
 
 Therefore to understand the variations that exist between all life on earth, between the sick and healthy, and within ourselves, let us enter the microscopic world inside the nucleus and investigate the 3D organization of chromatin.
 <br>
@@ -11,16 +11,16 @@ Therefore to understand the variations that exist between all life on earth, bet
 
 To study the 3D organization and structure of chromatin, we use Hi-C data.
 
-Hi-C data represent one major approach for studying 3D interactions within the cell, using a technique known as contact mapping. Hi-c files are created by proximity ligation experiments (SEE MORE), which allows us to take "snapshots" of chromatin and cataloging what regions of the chromatin interact with each other. After a large amount of "snapshots", we can begin to get a complete picture of how the genome is organized.
+Hi-C data represent one major approach for studying 3D interactions within the cell, using a technique known as contact mapping. Hi-C files are created by proximity ligation experiments (SEE MORE), which allows us to take "snapshots" of chromatin and cataloging what regions of the chromatin interact with each other. After a large amount of "snapshots", we can begin to get a complete picture of how the genome is organized.
 
 <p align=center>
 <img  class="centered" width="50%" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/SNAPSHOT_nucleus.jpg" alt=""/>
 
-And this manifests itself as a Hi-C file! Below we can see an example of a typical hic file zoomed out. Notice how we can see dsitinct squares, those are the different chromosomes! The reason why they are more red (increased contacts) is because chromosomes tend to interact with themselves more than other chromosomes! 
+And this manifests itself as a Hi-C map! Below we can see an example of a typical genome wide Hi-C map. Notice how we can see distinct squares, those are the different chromosomes! The reason why they are more red (increased contacts) is because chromosomes tend to interact with themselves more than other chromosomes (chromosome territories)! 
 <p align=center>
 <img  class="centered" width="60%" src="https://raw.githubusercontent.com/aidenlab/welcome-images/main/simplehic.png" alt=""/>
 
-There are other genomic features other than chromosomes that can be visualized on Hi-C images like loops, domains and compartments. Keep reading to find out more!
+There are other genomic features other than chromosomes that can be visualized in Hi-C images like loops, domains and compartments. Keep reading to find out more!
 <br>
 ----
 ## Additional Resources

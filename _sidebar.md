@@ -24,6 +24,7 @@
   * [Straw Python](straw.wiki/Python.md)
   * [Straw Java](straw.wiki/Java.md)
   * [Straw R](straw.wiki/R.md)
+  * [Colab Guide](https://colab.research.google.com/drive/1-GG-n-p9nZ7Be82UVJG7n3Q_wQ9IeuFN?usp=sharing)
 - End-to-end processing of Hi-C data
   * [Introduction to Juicer](juicer.wiki/Home)
   * [Download](juicer.wiki/Download)
@@ -43,6 +44,7 @@
       * [CTCF Motif Finder](juicer.tools.wiki/MotifFinder)
       * [Aggregate Peak Analysis](juicer.tools.wiki/APA)
       * [Compare Loop Lists](juicer.tools.wiki/Compare-Lists)
+      * [Colab Guide](https://colab.research.google.com/drive/1XelZowBWxBghSyS11rvs90Zmazsj_HPh?usp=sharing)
 - [Genome Assembly from Hi-C data](juicebox.wiki/Juicebox-Assembly-Tools)
 - [FAQ](FAQ.md)
 - [How to Cite](Citing.md)

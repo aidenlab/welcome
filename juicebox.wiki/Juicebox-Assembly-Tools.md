@@ -1,5 +1,5 @@
 
-## Intro to 3DDNA and JBAT
+## Intro to 3D-DNA and JBAT
 
 [Olga Dudchenko Talk](https://www.youtube.com/embed/UL1tPzJRDCE ':include :type=iframe width=100% height=400px')
 
@@ -69,6 +69,6 @@ Want to learn more about assembly, and how you can assemble any genome for under
 
 Read about Juicebox Assembly Tools in <a href="https://www.dropbox.com/s/yq5oeuh0c9dlzhw/manual_180322.pdf?dl=0">Genome Assembly Cookbook</a>.
 
+----
 
-
-
+****For all the latest assemblies, please visit [DNAZOO](https://www.dnazoo.org/)****

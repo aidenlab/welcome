@@ -5,13 +5,11 @@
 
 
 
->  One stop shop for all Aidenlab documentation <!-- TODO: Replace with your description -->
 
 
 <!-- TODO: Update to match your project's benefits/features. Git emojis work great here. -->
 
-- 🧃 Learn how to use Juicebox, Juicer, Juicertools and straw.
-- :open_file_folder: Seamlessly copy code to drive your own genome exploration projects
+- 🧃 Learn how to use Juicebox, Juicer, Juicer Tools and Straw.
 
 
 <!-- TODO: Set your background color or image. -->

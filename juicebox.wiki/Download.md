@@ -1,3 +1,10 @@
+## Prerequisites
+
+
+> Make sure you have Java installed on your system
+
+----
+
 ## Development Version 2.XX.XX
 
 Newer jar releases are posted under [Github Releases](https://github.com/aidenlab/Juicebox/releases) in the Juicebox repo.
