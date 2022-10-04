@@ -1,6 +1,6 @@
 ## Installing Straw in Python
 
-Once you've installed the library with `pip install hic-straw` or `python3 -m pip install hic-straw`, you can import your code with `import hicstraw`. 
+Once you've installed the library with `pip install hic-straw` or `python3 -m pip install hic-straw`, you can import your code with `import hicstraw`. To install hic-straw on a vanilla Linux installation, you need to to install g++, libcurl4-openssl-dev, and libz-dev Using Ubuntu 22.04 . 
 
 ----
 ## Using straw in Python
